@@ -59,6 +59,7 @@
 		BC9AE18C1E7043F300D3199C /* AwesomeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9AE1901E7043F300D3199C /* AwesomeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeSwiftUITests.swift; sourceTree = "<group>"; };
 		BC9AE1921E7043F300D3199C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCFC1161E733E7A00940CBF /* CalendarKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CalendarKit.playground; sourceTree = "<group>"; };
 		D32E9FAF8941958DD449E937 /* Pods-AwesomeSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftUITests/Pods-AwesomeSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E38D2151789F8C89DE340277 /* Pods-AwesomeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwift/Pods-AwesomeSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +95,7 @@
 		1FE6D9ED1E724448008094B9 /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BCCFC1151E733E5E00940CBF /* Playground */,
 				BC9AE16C1E7043F200D3199C /* AwesomeSwift */,
 				BC9AE1841E7043F300D3199C /* AwesomeSwiftTests */,
 				BC9AE18F1E7043F300D3199C /* AwesomeSwiftUITests */,
@@ -164,6 +166,14 @@
 				BC9AE1921E7043F300D3199C /* Info.plist */,
 			);
 			path = AwesomeSwiftUITests;
+			sourceTree = "<group>";
+		};
+		BCCFC1151E733E5E00940CBF /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				BCCFC1161E733E7A00940CBF /* CalendarKit.playground */,
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 		DE128E0CD91B0EE1CA55BA10 /* Frameworks */ = {
