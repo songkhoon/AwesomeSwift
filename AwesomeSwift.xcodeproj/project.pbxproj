@@ -76,12 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC9AE1611E7043F200D3199C = {
+		1FE6D9ED1E724448008094B9 /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
 				BC9AE16C1E7043F200D3199C /* AwesomeSwift */,
 				BC9AE1841E7043F300D3199C /* AwesomeSwiftTests */,
 				BC9AE18F1E7043F300D3199C /* AwesomeSwiftUITests */,
+			);
+			name = AwesomeSwift;
+			sourceTree = "<group>";
+		};
+		BC9AE1611E7043F200D3199C = {
+			isa = PBXGroup;
+			children = (
+				1FE6D9ED1E724448008094B9 /* AwesomeSwift */,
 				BC9AE16B1E7043F200D3199C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -509,6 +517,7 @@
 				BC9AE1971E7043F300D3199C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9AE1981E7043F300D3199C /* Build configuration list for PBXNativeTarget "AwesomeSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				BC9AE19A1E7043F300D3199C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9AE19B1E7043F300D3199C /* Build configuration list for PBXNativeTarget "AwesomeSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				BC9AE19D1E7043F300D3199C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
