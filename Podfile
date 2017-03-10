@@ -6,6 +6,7 @@ target 'AwesomeSwift' do
   use_frameworks!
 
   # Pods for AwesomeSwift
+  pod 'CalendarKit'
 
   target 'AwesomeSwiftTests' do
     inherit! :search_paths
