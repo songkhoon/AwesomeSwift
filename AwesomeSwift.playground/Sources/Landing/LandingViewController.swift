@@ -18,6 +18,7 @@ public class LandingViewController: UIViewController {
         layout.estimatedItemSize = CGSize(width: 200, height: 50)
         let view = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
         view.backgroundColor = .orange
+        view.contentInset = UIEdgeInsetsMake(30, 0, 30, 0)
         return view
     }()
 
@@ -46,12 +47,19 @@ public class LandingViewController: UIViewController {
         collectionView.register(LandingCell.self, forCellWithReuseIdentifier: landingCellId)
         collectionView.dataSource = self
         
+        let layoutGuide = UILayoutGuide()
+        view.addLayoutGuide(layoutGuide)
+        layoutGuide.topAnchor.constraint(equalTo: topLayoutGuide.bottomAnchor).isActive = true
+        layoutGuide.bottomAnchor.constraint(equalTo: bottomLayoutGuide.topAnchor).isActive = true
+        layoutGuide.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        layoutGuide.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        
         view.addSubview(collectionView)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         collectionView.topAnchor.constraint(equalTo: topLayoutGuide.bottomAnchor).isActive = true
-        collectionView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1).isActive = true
-        collectionView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 1).isActive = true
+        collectionView.widthAnchor.constraint(equalTo: layoutGuide.widthAnchor, multiplier: 1).isActive = true
+        collectionView.heightAnchor.constraint(equalTo: layoutGuide.heightAnchor, multiplier: 1).isActive = true
     }
 
     private func createButton(_ label:String) -> UIButton {
