@@ -23,6 +23,7 @@ public class LandingViewController: UIViewController {
 
     override public func viewDidLoad() {
         super.viewDidLoad()
+        automaticallyAdjustsScrollViewInsets = false
         view.backgroundColor = .white
         navigationItem.title = "Landing"
         
