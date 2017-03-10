@@ -6,6 +6,6 @@ import PlaygroundSupport
 
 var str = "Hello, playground"
 PlaygroundPage.current.needsIndefiniteExecution = true
-let controller = ExampleController()
+let controller = LandingViewController()
 let navController = UINavigationController(rootViewController: controller)
 PlaygroundPage.current.liveView = navController
