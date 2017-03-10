@@ -43,6 +43,10 @@ public class LandingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    public override func didMove(toParentViewController parent: UIViewController?) {
+        parent?.navigationItem.title = navigationItem.title
+    }
+    
     private func setupLayout() {
         collectionView.register(LandingCell.self, forCellWithReuseIdentifier: landingCellId)
         collectionView.dataSource = self
