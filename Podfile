@@ -9,6 +9,8 @@ target 'AwesomeSwift' do
   pod 'CalendarKit'
   
   pod 'CalendarView'
+  
+  pod 'Koyomi'
 
   target 'AwesomeSwiftTests' do
     inherit! :search_paths
