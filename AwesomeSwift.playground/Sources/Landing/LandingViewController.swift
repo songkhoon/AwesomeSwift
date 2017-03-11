@@ -30,9 +30,12 @@ public class LandingViewController: UIViewController {
         
         let calendarKitButton = createButton("CalendarKit")
         calendarKitButton.addTarget(self, action: #selector(handleCalendarKit), for: .touchUpInside)
+        let calendarViewButton = createButton("CalendarView")
+        calendarViewButton.addTarget(self, action: #selector(handleCalendarView), for: .touchUpInside)
         
         landingButtons = [
             calendarKitButton,
+            calendarViewButton,
         ]
 
         setupLayout()
@@ -80,6 +83,11 @@ public class LandingViewController: UIViewController {
     // MARK:- Handlers
     func handleCalendarKit() {
         let navController = UINavigationController(rootViewController: ExampleController())
+        navigationController?.present(navController, animated: true, completion: nil)
+    }
+    
+    func handleCalendarView() {
+        let navController = UINavigationController(rootViewController: CalendarViewController())
         navigationController?.present(navController, animated: true, completion: nil)
     }
 
