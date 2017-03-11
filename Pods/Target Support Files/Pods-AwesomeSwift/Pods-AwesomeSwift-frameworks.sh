@@ -93,6 +93,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/CalendarView/CalendarView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/DateToolsSwift/DateToolsSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/DynamicColor/DynamicColor.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Koyomi/Koyomi.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Neon/Neon.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftMoment/SwiftMoment.framework"
 fi
@@ -101,6 +102,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/CalendarView/CalendarView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/DateToolsSwift/DateToolsSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/DynamicColor/DynamicColor.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Koyomi/Koyomi.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Neon/Neon.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftMoment/SwiftMoment.framework"
 fi
