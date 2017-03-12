@@ -48,6 +48,12 @@ public class KoyomiViewController:UIViewController {
         return view
     }()
     
+    let dateLabel:UILabel = {
+        let view = UILabel()
+        view.textAlignment = .center
+        return view
+    }()
+    
     public override func viewDidLoad() {
         super.viewDidLoad()
         automaticallyAdjustsScrollViewInsets = false
@@ -68,6 +74,16 @@ public class KoyomiViewController:UIViewController {
         segmentControl.widthAnchor.constraint(equalToConstant: 300).isActive = true
         segmentControl.heightAnchor.constraint(equalToConstant: 30).isActive = true
         
+        dateLabel.text = koyomi.currentDateString(withFormat: "MM/yyyy")
+        view.addSubview(dateLabel)
+        dateLabel.translatesAutoresizingMaskIntoConstraints = false
+        dateLabel.topAnchor.constraint(equalTo: segmentControl.bottomAnchor, constant: 10).isActive = true
+        dateLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
+        dateLabel.widthAnchor.constraint(equalTo: view.widthAnchor, constant: 0).isActive = true
+        dateLabel.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        
+        koyomi.allowsSelection = false
+        koyomi.select(date: Date())
         koyomi.layer.borderWidth = 1.0
         koyomi.layer.borderColor = UIColor.lightGray.cgColor
         koyomi.circularViewDiameter = 0.2
@@ -85,7 +101,7 @@ public class KoyomiViewController:UIViewController {
         view.addSubview(koyomi)
         
         koyomi.translatesAutoresizingMaskIntoConstraints = false
-        koyomi.topAnchor.constraint(equalTo: segmentControl.bottomAnchor, constant: 20).isActive = true
+        koyomi.topAnchor.constraint(equalTo: dateLabel.bottomAnchor, constant: 10).isActive = true
         koyomi.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true
         koyomi.widthAnchor.constraint(equalToConstant: 300).isActive = true
         koyomi.heightAnchor.constraint(equalToConstant: 300).isActive = true
@@ -133,6 +149,7 @@ public class KoyomiViewController:UIViewController {
             }
         }()
         koyomi.display(in: month)
+        dateLabel.text = koyomi.currentDateString(withFormat: "MM/yyyy")
     }
     
     func handleKoyomi(_ sender:MyButton) {
