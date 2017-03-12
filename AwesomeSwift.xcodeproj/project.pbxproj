@@ -15,6 +15,7 @@
 		BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50A89B1E735BEC00665614 /* LandingCell.swift */; };
 		BC50A89E1E735BEC00665614 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50A89C1E735BEC00665614 /* LandingViewController.swift */; };
 		BC7D47871E748D4400564E0C /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D47861E748D4400564E0C /* CalendarViewController.swift */; };
+		BC8643A11E749F4A002BFABB /* KoyomiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8643A01E749F4A002BFABB /* KoyomiViewController.swift */; };
 		BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9AE16D1E7043F300D3199C /* AppDelegate.swift */; };
 		BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9AE16F1E7043F300D3199C /* ViewController.swift */; };
 		BC9AE1731E7043F300D3199C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9AE1711E7043F300D3199C /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 		BC9AE17B1E7043F300D3199C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9AE1791E7043F300D3199C /* LaunchScreen.storyboard */; };
 		BC9AE1861E7043F300D3199C /* AwesomeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9AE1851E7043F300D3199C /* AwesomeSwiftTests.swift */; };
 		BC9AE1911E7043F300D3199C /* AwesomeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9AE1901E7043F300D3199C /* AwesomeSwiftUITests.swift */; };
+		BCD7DA8A1E751FD600A9CD83 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD7DA881E751FD600A9CD83 /* MyButton.swift */; };
+		BCD7DA8B1E751FD600A9CD83 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD7DA891E751FD600A9CD83 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,7 @@
 		BC50A89B1E735BEC00665614 /* LandingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandingCell.swift; path = AwesomeSwift.playground/Sources/Landing/LandingCell.swift; sourceTree = SOURCE_ROOT; };
 		BC50A89C1E735BEC00665614 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandingViewController.swift; path = AwesomeSwift.playground/Sources/Landing/LandingViewController.swift; sourceTree = SOURCE_ROOT; };
 		BC7D47861E748D4400564E0C /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ../AwesomeSwift.playground/Sources/CalendarView/CalendarViewController.swift; sourceTree = "<group>"; };
+		BC8643A01E749F4A002BFABB /* KoyomiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KoyomiViewController.swift; path = ../AwesomeSwift.playground/Sources/Koyomi/KoyomiViewController.swift; sourceTree = "<group>"; };
 		BC9AE16A1E7043F200D3199C /* AwesomeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9AE16D1E7043F300D3199C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9AE16F1E7043F300D3199C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 		BC9AE1901E7043F300D3199C /* AwesomeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeSwiftUITests.swift; sourceTree = "<group>"; };
 		BC9AE1921E7043F300D3199C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCFC1161E733E7A00940CBF /* AwesomeSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AwesomeSwift.playground; sourceTree = "<group>"; };
+		BCD7DA881E751FD600A9CD83 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyButton.swift; path = ../AwesomeSwift.playground/Sources/Koyomi/MyButton.swift; sourceTree = "<group>"; };
+		BCD7DA891E751FD600A9CD83 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../AwesomeSwift.playground/Sources/Koyomi/UIColorExtension.swift; sourceTree = "<group>"; };
 		D32E9FAF8941958DD449E937 /* Pods-AwesomeSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftUITests/Pods-AwesomeSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E38D2151789F8C89DE340277 /* Pods-AwesomeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwift/Pods-AwesomeSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +158,16 @@
 			name = CalendarView;
 			sourceTree = "<group>";
 		};
+		BC86439F1E749F3B002BFABB /* Koyomi */ = {
+			isa = PBXGroup;
+			children = (
+				BC8643A01E749F4A002BFABB /* KoyomiViewController.swift */,
+				BCD7DA881E751FD600A9CD83 /* MyButton.swift */,
+				BCD7DA891E751FD600A9CD83 /* UIColorExtension.swift */,
+			);
+			name = Koyomi;
+			sourceTree = "<group>";
+		};
 		BC9AE1611E7043F200D3199C = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +196,7 @@
 				BC50A89F1E735BEF00665614 /* Landing */,
 				BC50A89A1E735BD500665614 /* CalendarKit */,
 				BC7D47851E748D2B00564E0C /* CalendarView */,
+				BC86439F1E749F3B002BFABB /* Koyomi */,
 				BC9AE1711E7043F300D3199C /* Main.storyboard */,
 				BC9AE1771E7043F300D3199C /* Assets.xcassets */,
 				BC9AE1791E7043F300D3199C /* LaunchScreen.storyboard */,
@@ -510,8 +527,11 @@
 				BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */,
 				BC50A89E1E735BEC00665614 /* LandingViewController.swift in Sources */,
 				BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */,
+				BC8643A11E749F4A002BFABB /* KoyomiViewController.swift in Sources */,
 				BC50A8991E735BD100665614 /* StyleGenerator.swift in Sources */,
 				BC50A8981E735BD100665614 /* ExampleController.swift in Sources */,
+				BCD7DA8A1E751FD600A9CD83 /* MyButton.swift in Sources */,
+				BCD7DA8B1E751FD600A9CD83 /* UIColorExtension.swift in Sources */,
 				BC9AE1761E7043F300D3199C /* AwesomeSwift.xcdatamodeld in Sources */,
 				BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */,
 			);

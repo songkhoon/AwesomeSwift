@@ -32,10 +32,13 @@ public class LandingViewController: UIViewController {
         calendarKitButton.addTarget(self, action: #selector(handleCalendarKit), for: .touchUpInside)
         let calendarViewButton = createButton("CalendarView")
         calendarViewButton.addTarget(self, action: #selector(handleCalendarView), for: .touchUpInside)
+        let koyomiButton = createButton("Koyomi")
+        koyomiButton.addTarget(self, action: #selector(handleKoyomi), for: .touchUpInside)
         
         landingButtons = [
             calendarKitButton,
             calendarViewButton,
+            koyomiButton
         ]
 
         setupLayout()
@@ -88,6 +91,11 @@ public class LandingViewController: UIViewController {
     
     func handleCalendarView() {
         let navController = UINavigationController(rootViewController: CalendarViewController())
+        navigationController?.present(navController, animated: true, completion: nil)
+    }
+    
+    func handleKoyomi() {
+        let navController = UINavigationController(rootViewController: KoyomiViewController())
         navigationController?.present(navController, animated: true, completion: nil)
     }
 
