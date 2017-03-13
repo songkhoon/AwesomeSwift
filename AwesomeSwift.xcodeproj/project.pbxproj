@@ -11,6 +11,8 @@
 		1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */; };
 		1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */; };
 		1F16442F1E76822B009D70A0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442E1E76822B009D70A0 /* Helper.swift */; };
+		1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */; };
+		1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */; };
 		1FF65C991E76B17E006783B1 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C971E76B17E006783B1 /* ExampleController.swift */; };
 		1FF65C9A1E76B17E006783B1 /* StyleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C981E76B17E006783B1 /* StyleGenerator.swift */; };
 		1FF65C9C1E76B18A006783B1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C9B1E76B18A006783B1 /* CalendarViewController.swift */; };
@@ -52,6 +54,8 @@
 		1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Landing/MenuCollectionViewController.swift; sourceTree = "<group>"; };
 		1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmenuViewController.swift; path = ../AwesomeSwift.playground/Sources/Landing/SubmenuViewController.swift; sourceTree = "<group>"; };
 		1F16442E1E76822B009D70A0 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../AwesomeSwift.playground/Sources/Helper.swift; sourceTree = "<group>"; };
+		1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedCollectionViewLayoutViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/AnimatedCollectionViewLayoutViewController.swift; sourceTree = "<group>"; };
+		1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/ImageCollectionViewController.swift; sourceTree = "<group>"; };
 		1FF65C971E76B17E006783B1 /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleController.swift; path = ../AwesomeSwift.playground/Sources/Calendar/CalendarKit/ExampleController.swift; sourceTree = "<group>"; };
 		1FF65C981E76B17E006783B1 /* StyleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StyleGenerator.swift; path = ../AwesomeSwift.playground/Sources/Calendar/CalendarKit/StyleGenerator.swift; sourceTree = "<group>"; };
 		1FF65C9B1E76B18A006783B1 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ../AwesomeSwift.playground/Sources/Calendar/CalendarView/CalendarViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,23 @@
 				BC86439F1E749F3B002BFABB /* Koyomi */,
 			);
 			name = Calendar;
+			sourceTree = "<group>";
+		};
+		1F81FAB61E76B833004B1160 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				1F8587FD1E76BE5600B9EA26 /* AnimatedCollectionViewLayout */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		1F8587FD1E76BE5600B9EA26 /* AnimatedCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */,
+				1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */,
+			);
+			name = AnimatedCollectionViewLayout;
 			sourceTree = "<group>";
 		};
 		1FE6D9ED1E724448008094B9 /* AwesomeSwift */ = {
@@ -209,6 +230,7 @@
 		BC9AE16C1E7043F200D3199C /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1F81FAB61E76B833004B1160 /* Animation */,
 				BC50A89F1E735BEF00665614 /* Landing */,
 				1F1644301E768929009D70A0 /* Calendar */,
 				1F16442E1E76822B009D70A0 /* Helper.swift */,
@@ -542,6 +564,7 @@
 			files = (
 				1FF65C9C1E76B18A006783B1 /* CalendarViewController.swift in Sources */,
 				1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */,
+				1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
 				1F16442F1E76822B009D70A0 /* Helper.swift in Sources */,
 				BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */,
 				1FF65CA11E76B197006783B1 /* MyButton.swift in Sources */,
@@ -551,6 +574,7 @@
 				1FF65C9A1E76B17E006783B1 /* StyleGenerator.swift in Sources */,
 				1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */,
 				1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */,
+				1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */,
 				BC9AE1761E7043F300D3199C /* AwesomeSwift.xcdatamodeld in Sources */,
 				1FF65C991E76B17E006783B1 /* ExampleController.swift in Sources */,
 				BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */,

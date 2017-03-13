@@ -13,7 +13,9 @@ public class LandingViewController: UIViewController {
     let landingCellId = String(describing: LandingCell.self)
     var landingButtons = [UIButton]()
     public let landingMenus:[String:[String:AnyClass]] = [
-        "Animation":[:],
+        "Animation":[
+            "AnimatedCollectionViewLayout":AnimatedCollectionViewLayoutViewController.self
+        ],
         "Calendar":[
             "CalendarKit":ExampleController.self,
             "CalendarView":CalendarViewController.self,
