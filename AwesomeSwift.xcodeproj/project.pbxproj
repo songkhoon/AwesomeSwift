@@ -114,6 +114,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1644301E768929009D70A0 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				BC50A89A1E735BD500665614 /* CalendarKit */,
+				BC7D47851E748D2B00564E0C /* CalendarView */,
+				BC86439F1E749F3B002BFABB /* Koyomi */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
 		1FE6D9ED1E724448008094B9 /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,13 +209,11 @@
 		BC9AE16C1E7043F200D3199C /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BC50A89F1E735BEF00665614 /* Landing */,
+				1F1644301E768929009D70A0 /* Calendar */,
 				1F16442E1E76822B009D70A0 /* Helper.swift */,
 				BC9AE16D1E7043F300D3199C /* AppDelegate.swift */,
 				BC9AE16F1E7043F300D3199C /* ViewController.swift */,
-				BC50A89F1E735BEF00665614 /* Landing */,
-				BC50A89A1E735BD500665614 /* CalendarKit */,
-				BC7D47851E748D2B00564E0C /* CalendarView */,
-				BC86439F1E749F3B002BFABB /* Koyomi */,
 				BC9AE1711E7043F300D3199C /* Main.storyboard */,
 				BC9AE1771E7043F300D3199C /* Assets.xcassets */,
 				BC9AE1791E7043F300D3199C /* LaunchScreen.storyboard */,
