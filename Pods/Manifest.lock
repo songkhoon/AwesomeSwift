@@ -1,4 +1,5 @@
 PODS:
+  - AnimatedCollectionViewLayout (0.2.0)
   - CalendarKit (0.1.7):
     - DateToolsSwift
     - DynamicColor
@@ -12,11 +13,13 @@ PODS:
   - SwiftMoment (0.7)
 
 DEPENDENCIES:
+  - AnimatedCollectionViewLayout
   - CalendarKit
   - CalendarView
   - Koyomi
 
 SPEC CHECKSUMS:
+  AnimatedCollectionViewLayout: 6f385ed7deb673af8989f5240c4b0c32c9d25276
   CalendarKit: 7049e1a2d9a9ce72c884c5189a63a7ed59287f81
   CalendarView: 35d51b70586213604edec22a585d105273f6e191
   DateToolsSwift: e493a31bc1fb5bc163f27f897c637f789e4a2b5b
@@ -25,6 +28,6 @@ SPEC CHECKSUMS:
   Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
   SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
 
-PODFILE CHECKSUM: cc47d3c2915cdb85f2bfa7dbe4746f1a71ef2bd5
+PODFILE CHECKSUM: eaa3875586d6899a4473fe623691e3cb409e3432
 
 COCOAPODS: 1.2.0
