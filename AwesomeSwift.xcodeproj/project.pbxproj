@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0FAEDB996A579761D7FD4CFD /* Pods_AwesomeSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7109D7E5D8C4ECE58BEDBCD0 /* Pods_AwesomeSwiftUITests.framework */; };
+		1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */; };
+		1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */; };
 		1F16442F1E76822B009D70A0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442E1E76822B009D70A0 /* Helper.swift */; };
 		454580E5D62A31136110F292 /* Pods_AwesomeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9136A79302FEDE426994EDE7 /* Pods_AwesomeSwiftTests.framework */; };
 		61DEFEB4B3FC93494B2F3995 /* Pods_AwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Landing/MenuCollectionViewController.swift; sourceTree = "<group>"; };
+		1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmenuViewController.swift; path = ../AwesomeSwift.playground/Sources/Landing/SubmenuViewController.swift; sourceTree = "<group>"; };
 		1F16442E1E76822B009D70A0 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../AwesomeSwift.playground/Sources/Helper.swift; sourceTree = "<group>"; };
 		31AD3AC2F8556FFAF26F719B /* Pods-AwesomeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftTests/Pods-AwesomeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,7 +79,7 @@
 		BC9AE18C1E7043F300D3199C /* AwesomeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9AE1901E7043F300D3199C /* AwesomeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeSwiftUITests.swift; sourceTree = "<group>"; };
 		BC9AE1921E7043F300D3199C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCCFC1161E733E7A00940CBF /* AwesomeSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AwesomeSwift.playground; sourceTree = "<group>"; };
+		BCCFC1161E733E7A00940CBF /* AwesomeSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AwesomeSwift.playground; sourceTree = SOURCE_ROOT; };
 		BCD7DA881E751FD600A9CD83 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyButton.swift; path = ../AwesomeSwift.playground/Sources/Koyomi/MyButton.swift; sourceTree = "<group>"; };
 		BCD7DA891E751FD600A9CD83 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../AwesomeSwift.playground/Sources/Koyomi/UIColorExtension.swift; sourceTree = "<group>"; };
 		D32E9FAF8941958DD449E937 /* Pods-AwesomeSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftUITests/Pods-AwesomeSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 			children = (
 				BC50A89B1E735BEC00665614 /* LandingCell.swift */,
 				BC50A89C1E735BEC00665614 /* LandingViewController.swift */,
+				1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */,
+				1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */,
 			);
 			name = Landing;
 			sourceTree = "<group>";
@@ -535,7 +541,9 @@
 				BC50A8991E735BD100665614 /* StyleGenerator.swift in Sources */,
 				BC50A8981E735BD100665614 /* ExampleController.swift in Sources */,
 				BCD7DA8A1E751FD600A9CD83 /* MyButton.swift in Sources */,
+				1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */,
 				BCD7DA8B1E751FD600A9CD83 /* UIColorExtension.swift in Sources */,
+				1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */,
 				BC9AE1761E7043F300D3199C /* AwesomeSwift.xcdatamodeld in Sources */,
 				BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */,
 			);
