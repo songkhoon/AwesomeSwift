@@ -9,6 +9,9 @@ PODS:
   - DateToolsSwift (2.0.2)
   - DynamicColor (3.2.1)
   - Koyomi (1.2.4)
+  - Material (2.5.2):
+    - Material/Core (= 2.5.2)
+  - Material/Core (2.5.2)
   - Neon (0.4.0)
   - SwiftMoment (0.7)
 
@@ -17,6 +20,7 @@ DEPENDENCIES:
   - CalendarKit
   - CalendarView
   - Koyomi
+  - Material (~> 2.0)
 
 SPEC CHECKSUMS:
   AnimatedCollectionViewLayout: 6f385ed7deb673af8989f5240c4b0c32c9d25276
@@ -25,9 +29,10 @@ SPEC CHECKSUMS:
   DateToolsSwift: e493a31bc1fb5bc163f27f897c637f789e4a2b5b
   DynamicColor: 4786d650c69da6c3f2cbfe068348288ec4e5521f
   Koyomi: e028b378584ec90e257681bd255a3041ca109cc6
+  Material: 00ae261fa04dd3f3f8584d07e44ac658fa1bc6fd
   Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
   SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
 
-PODFILE CHECKSUM: eaa3875586d6899a4473fe623691e3cb409e3432
+PODFILE CHECKSUM: f4aee82745c8c90cd54610e1e2293738641816df
 
 COCOAPODS: 1.2.0
