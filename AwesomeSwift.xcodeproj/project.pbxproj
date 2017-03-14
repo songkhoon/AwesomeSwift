@@ -21,6 +21,16 @@
 		1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C9F1E76B197006783B1 /* UIColorExtension.swift */; };
 		454580E5D62A31136110F292 /* Pods_AwesomeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9136A79302FEDE426994EDE7 /* Pods_AwesomeSwiftTests.framework */; };
 		61DEFEB4B3FC93494B2F3995 /* Pods_AwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */; };
+		BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10051E784D3F00A9EA20 /* BarViewController.swift */; };
+		BC1B10091E784D3F00A9EA20 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10061E784D3F00A9EA20 /* ButtonViewController.swift */; };
+		BC1B100A1E784D3F00A9EA20 /* MaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10071E784D3F00A9EA20 /* MaterialViewController.swift */; };
+		BC1B10131E784D5100A9EA20 /* AppBottomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B100C1E784D5100A9EA20 /* AppBottomNavigationController.swift */; };
+		BC1B10141E784D5100A9EA20 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B100D1E784D5100A9EA20 /* AudioViewController.swift */; };
+		BC1B10151E784D5100A9EA20 /* BottomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B100E1E784D5100A9EA20 /* BottomNavigationViewController.swift */; };
+		BC1B10161E784D5100A9EA20 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B100F1E784D5100A9EA20 /* PhotoViewController.swift */; };
+		BC1B10171E784D5100A9EA20 /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10101E784D5100A9EA20 /* RemindersViewController.swift */; };
+		BC1B10181E784D5100A9EA20 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10111E784D5100A9EA20 /* SearchViewController.swift */; };
+		BC1B10191E784D5100A9EA20 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10121E784D5100A9EA20 /* VideoViewController.swift */; };
 		BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50A89B1E735BEC00665614 /* LandingCell.swift */; };
 		BC50A89E1E735BEC00665614 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50A89C1E735BEC00665614 /* LandingViewController.swift */; };
 		BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9AE16D1E7043F300D3199C /* AppDelegate.swift */; };
@@ -69,6 +79,16 @@
 		6EAD4EA214D599AE7A611CCD /* Pods-AwesomeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftTests/Pods-AwesomeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7109D7E5D8C4ECE58BEDBCD0 /* Pods_AwesomeSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9136A79302FEDE426994EDE7 /* Pods_AwesomeSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1B10051E784D3F00A9EA20 /* BarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/BarViewController.swift; sourceTree = "<group>"; };
+		BC1B10061E784D3F00A9EA20 /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/ButtonViewController.swift; sourceTree = "<group>"; };
+		BC1B10071E784D3F00A9EA20 /* MaterialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/MaterialViewController.swift; sourceTree = "<group>"; };
+		BC1B100C1E784D5100A9EA20 /* AppBottomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppBottomNavigationController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/BottomNavigationController/AppBottomNavigationController.swift; sourceTree = "<group>"; };
+		BC1B100D1E784D5100A9EA20 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/BottomNavigationController/AudioViewController.swift; sourceTree = "<group>"; };
+		BC1B100E1E784D5100A9EA20 /* BottomNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BottomNavigationViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/BottomNavigationController/BottomNavigationViewController.swift; sourceTree = "<group>"; };
+		BC1B100F1E784D5100A9EA20 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/BottomNavigationController/PhotoViewController.swift; sourceTree = "<group>"; };
+		BC1B10101E784D5100A9EA20 /* RemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemindersViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/BottomNavigationController/RemindersViewController.swift; sourceTree = "<group>"; };
+		BC1B10111E784D5100A9EA20 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/BottomNavigationController/SearchViewController.swift; sourceTree = "<group>"; };
+		BC1B10121E784D5100A9EA20 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/BottomNavigationController/VideoViewController.swift; sourceTree = "<group>"; };
 		BC50A89B1E735BEC00665614 /* LandingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandingCell.swift; path = AwesomeSwift.playground/Sources/Landing/LandingCell.swift; sourceTree = SOURCE_ROOT; };
 		BC50A89C1E735BEC00665614 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LandingViewController.swift; path = AwesomeSwift.playground/Sources/Landing/LandingViewController.swift; sourceTree = SOURCE_ROOT; };
 		BC9AE16A1E7043F200D3199C /* AwesomeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +189,39 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BC1B10031E784D1700A9EA20 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B10041E784D1C00A9EA20 /* Material */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BC1B10041E784D1C00A9EA20 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B100B1E784D4900A9EA20 /* BottomNavigationController */,
+				BC1B10051E784D3F00A9EA20 /* BarViewController.swift */,
+				BC1B10061E784D3F00A9EA20 /* ButtonViewController.swift */,
+				BC1B10071E784D3F00A9EA20 /* MaterialViewController.swift */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		BC1B100B1E784D4900A9EA20 /* BottomNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BC1B100C1E784D5100A9EA20 /* AppBottomNavigationController.swift */,
+				BC1B100D1E784D5100A9EA20 /* AudioViewController.swift */,
+				BC1B100E1E784D5100A9EA20 /* BottomNavigationViewController.swift */,
+				BC1B100F1E784D5100A9EA20 /* PhotoViewController.swift */,
+				BC1B10101E784D5100A9EA20 /* RemindersViewController.swift */,
+				BC1B10111E784D5100A9EA20 /* SearchViewController.swift */,
+				BC1B10121E784D5100A9EA20 /* VideoViewController.swift */,
+			);
+			name = BottomNavigationController;
+			sourceTree = "<group>";
+		};
 		BC50A89A1E735BD500665614 /* CalendarKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +283,7 @@
 		BC9AE16C1E7043F200D3199C /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BC1B10031E784D1700A9EA20 /* UI */,
 				1F81FAB61E76B833004B1160 /* Animation */,
 				BC50A89F1E735BEF00665614 /* Landing */,
 				1F1644301E768929009D70A0 /* Calendar */,
@@ -562,22 +616,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1B10131E784D5100A9EA20 /* AppBottomNavigationController.swift in Sources */,
 				1FF65C9C1E76B18A006783B1 /* CalendarViewController.swift in Sources */,
+				BC1B10161E784D5100A9EA20 /* PhotoViewController.swift in Sources */,
 				1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */,
 				1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
 				1F16442F1E76822B009D70A0 /* Helper.swift in Sources */,
+				BC1B10141E784D5100A9EA20 /* AudioViewController.swift in Sources */,
+				BC1B100A1E784D3F00A9EA20 /* MaterialViewController.swift in Sources */,
+				BC1B10171E784D5100A9EA20 /* RemindersViewController.swift in Sources */,
 				BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */,
 				1FF65CA11E76B197006783B1 /* MyButton.swift in Sources */,
 				BC50A89E1E735BEC00665614 /* LandingViewController.swift in Sources */,
+				BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */,
 				1FF65CA01E76B197006783B1 /* KoyomiViewController.swift in Sources */,
 				BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */,
+				BC1B10181E784D5100A9EA20 /* SearchViewController.swift in Sources */,
+				BC1B10091E784D3F00A9EA20 /* ButtonViewController.swift in Sources */,
 				1FF65C9A1E76B17E006783B1 /* StyleGenerator.swift in Sources */,
+				BC1B10191E784D5100A9EA20 /* VideoViewController.swift in Sources */,
 				1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */,
 				1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */,
 				1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */,
 				BC9AE1761E7043F300D3199C /* AwesomeSwift.xcdatamodeld in Sources */,
 				1FF65C991E76B17E006783B1 /* ExampleController.swift in Sources */,
 				BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */,
+				BC1B10151E784D5100A9EA20 /* BottomNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
