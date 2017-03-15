@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0FAEDB996A579761D7FD4CFD /* Pods_AwesomeSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7109D7E5D8C4ECE58BEDBCD0 /* Pods_AwesomeSwiftUITests.framework */; };
+		1F05D1711E793BD900200BB4 /* PhotoLibraryCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05D16B1E793BD900200BB4 /* PhotoLibraryCollectionReusableView.swift */; };
+		1F05D1721E793BD900200BB4 /* PhotoLibraryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05D16C1E793BD900200BB4 /* PhotoLibraryCollectionView.swift */; };
+		1F05D1731E793BD900200BB4 /* PhotoLibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05D16D1E793BD900200BB4 /* PhotoLibraryCollectionViewCell.swift */; };
+		1F05D1741E793BD900200BB4 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05D16E1E793BD900200BB4 /* PhotoLibraryViewController.swift */; };
+		1F05D1751E793BD900200BB4 /* PLAppToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05D16F1E793BD900200BB4 /* PLAppToolbarController.swift */; };
+		1F05D1761E793BD900200BB4 /* PLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05D1701E793BD900200BB4 /* PLViewController.swift */; };
 		1F067A711E79263100E7D917 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F067A6C1E79263100E7D917 /* BlueViewController.swift */; };
 		1F067A721E79263100E7D917 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F067A6D1E79263100E7D917 /* GreenViewController.swift */; };
 		1F067A731E79263100E7D917 /* PageTabBarAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F067A6E1E79263100E7D917 /* PageTabBarAppController.swift */; };
@@ -114,6 +120,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F05D16B1E793BD900200BB4 /* PhotoLibraryCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoLibraryCollectionReusableView.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PhotoLibraryController/PhotoLibraryCollectionReusableView.swift; sourceTree = "<group>"; };
+		1F05D16C1E793BD900200BB4 /* PhotoLibraryCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoLibraryCollectionView.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PhotoLibraryController/PhotoLibraryCollectionView.swift; sourceTree = "<group>"; };
+		1F05D16D1E793BD900200BB4 /* PhotoLibraryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoLibraryCollectionViewCell.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PhotoLibraryController/PhotoLibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F05D16E1E793BD900200BB4 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PhotoLibraryController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		1F05D16F1E793BD900200BB4 /* PLAppToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PLAppToolbarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PhotoLibraryController/PLAppToolbarController.swift; sourceTree = "<group>"; };
+		1F05D1701E793BD900200BB4 /* PLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PLViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PhotoLibraryController/PLViewController.swift; sourceTree = "<group>"; };
 		1F067A6C1E79263100E7D917 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PageTabBarController/BlueViewController.swift; sourceTree = "<group>"; };
 		1F067A6D1E79263100E7D917 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreenViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PageTabBarController/GreenViewController.swift; sourceTree = "<group>"; };
 		1F067A6E1E79263100E7D917 /* PageTabBarAppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageTabBarAppController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PageTabBarController/PageTabBarAppController.swift; sourceTree = "<group>"; };
@@ -244,6 +256,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F05D16A1E793BCE00200BB4 /* PhotoLibraryController */ = {
+			isa = PBXGroup;
+			children = (
+				1F05D16B1E793BD900200BB4 /* PhotoLibraryCollectionReusableView.swift */,
+				1F05D16C1E793BD900200BB4 /* PhotoLibraryCollectionView.swift */,
+				1F05D16D1E793BD900200BB4 /* PhotoLibraryCollectionViewCell.swift */,
+				1F05D16E1E793BD900200BB4 /* PhotoLibraryViewController.swift */,
+				1F05D16F1E793BD900200BB4 /* PLAppToolbarController.swift */,
+				1F05D1701E793BD900200BB4 /* PLViewController.swift */,
+			);
+			name = PhotoLibraryController;
+			sourceTree = "<group>";
+		};
 		1F067A6B1E79262900E7D917 /* PageTabBarController */ = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +453,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1F05D16A1E793BCE00200BB4 /* PhotoLibraryController */,
 				1F5950F51E792B7D00F565FE /* PhotoCollection */,
 				1F067A6B1E79262900E7D917 /* PageTabBarController */,
 				1FFB45471E792387008F1946 /* NavigationDrawerController */,
@@ -873,17 +899,21 @@
 				BC1B10131E784D5100A9EA20 /* AppBottomNavigationController.swift in Sources */,
 				1FFB45531E79238F008F1946 /* NavigationDrawerRootViewController.swift in Sources */,
 				1FF65C9C1E76B18A006783B1 /* CalendarViewController.swift in Sources */,
+				1F05D1761E793BD900200BB4 /* PLViewController.swift in Sources */,
 				1FFB454F1E79238F008F1946 /* NavigationDrawerAppController.swift in Sources */,
 				1FEFF0BE1E78EA160064A24B /* PostsViewController.swift in Sources */,
 				BC1B10161E784D5100A9EA20 /* PhotoViewController.swift in Sources */,
 				1F2FFD391E79164E00503E77 /* FABAppMenuController.swift in Sources */,
 				1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */,
 				1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
+				1F05D1711E793BD900200BB4 /* PhotoLibraryCollectionReusableView.swift in Sources */,
 				1FFB45431E792006008F1946 /* AppNavigationController.swift in Sources */,
+				1F05D1741E793BD900200BB4 /* PhotoLibraryViewController.swift in Sources */,
 				1F11BCD41E78D0040050AA2E /* CardViewController.swift in Sources */,
 				1FFB45501E79238F008F1946 /* NavigationDrawerAppToolbarController.swift in Sources */,
 				1FEFF0BB1E78EA160064A24B /* CardTableView.swift in Sources */,
 				1F5950FC1E792B8500F565FE /* PCPhotoViewController.swift in Sources */,
+				1F05D1731E793BD900200BB4 /* PhotoLibraryCollectionViewCell.swift in Sources */,
 				1FEFF0BF1E78EA160064A24B /* SampleData.swift in Sources */,
 				1F067A751E79263100E7D917 /* RedViewController.swift in Sources */,
 				1F2FFD321E7912B500503E77 /* FABMenuViewController.swift in Sources */,
@@ -891,6 +921,7 @@
 				1FFB45441E792006008F1946 /* MaterialNavigationController.swift in Sources */,
 				1F2FFD341E7912B500503E77 /* NotesViewController.swift in Sources */,
 				1F067A711E79263100E7D917 /* BlueViewController.swift in Sources */,
+				1F05D1751E793BD900200BB4 /* PLAppToolbarController.swift in Sources */,
 				1FFB45551E79238F008F1946 /* NavigationDrawerViewController.swift in Sources */,
 				1F16442F1E76822B009D70A0 /* Helper.swift in Sources */,
 				BC1B10141E784D5100A9EA20 /* AudioViewController.swift in Sources */,
@@ -914,6 +945,7 @@
 				1FEFF0BD1E78EA160064A24B /* CardTableViewController.swift in Sources */,
 				BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */,
 				1F5950FD1E792B8500F565FE /* PCRootViewController.swift in Sources */,
+				1F05D1721E793BD900200BB4 /* PhotoLibraryCollectionView.swift in Sources */,
 				1F067A741E79263100E7D917 /* PageTabBarViewController.swift in Sources */,
 				1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */,
 				BC1B10181E784D5100A9EA20 /* SearchViewController.swift in Sources */,
