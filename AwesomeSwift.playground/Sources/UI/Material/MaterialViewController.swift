@@ -35,7 +35,8 @@ public class MaterialViewController:UIViewController {
             createButton("Card Table View"):CardTableViewController.self,
             createButton("Collection View"):MaterialCollectionViewController.self,
             createButton("Floating Action Button"):FABMenuViewController.self,
-            createButton("Grid"):GridViewController.self
+            createButton("Grid"):GridViewController.self,
+            createButton("Image Card"):ImageCardViewController.self
         ]
         for item in menuButton {
             item.key.addTarget(self, action: #selector(handleMenuButton(_:)), for: .touchUpInside)

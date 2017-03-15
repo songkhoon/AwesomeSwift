@@ -47,6 +47,8 @@
 		1FF65CA11E76B197006783B1 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C9E1E76B197006783B1 /* MyButton.swift */; };
 		1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C9F1E76B197006783B1 /* UIColorExtension.swift */; };
 		1FFB45331E791B34008F1946 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45321E791B34008F1946 /* GridViewController.swift */; };
+		1FFB45361E791D4F008F1946 /* ImageCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45351E791D4F008F1946 /* ImageCardViewController.swift */; };
+		1FFB45381E791D53008F1946 /* frontier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB45371E791D53008F1946 /* frontier.jpg */; };
 		454580E5D62A31136110F292 /* Pods_AwesomeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9136A79302FEDE426994EDE7 /* Pods_AwesomeSwiftTests.framework */; };
 		61DEFEB4B3FC93494B2F3995 /* Pods_AwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */; };
 		BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10051E784D3F00A9EA20 /* BarViewController.swift */; };
@@ -128,6 +130,8 @@
 		1FF65C9E1E76B197006783B1 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyButton.swift; path = ../AwesomeSwift.playground/Sources/Calendar/Koyomi/MyButton.swift; sourceTree = "<group>"; };
 		1FF65C9F1E76B197006783B1 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../AwesomeSwift.playground/Sources/Calendar/Koyomi/UIColorExtension.swift; sourceTree = "<group>"; };
 		1FFB45321E791B34008F1946 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Grid/GridViewController.swift; sourceTree = "<group>"; };
+		1FFB45351E791D4F008F1946 /* ImageCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCardViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/ImageCard/ImageCardViewController.swift; sourceTree = "<group>"; };
+		1FFB45371E791D53008F1946 /* frontier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = frontier.jpg; path = ../AwesomeSwift.playground/Resources/frontier.jpg; sourceTree = "<group>"; };
 		31AD3AC2F8556FFAF26F719B /* Pods-AwesomeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftTests/Pods-AwesomeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6153BFD7AB873188A63FEA31 /* Pods-AwesomeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftUITests/Pods-AwesomeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -287,6 +291,15 @@
 			name = Grid;
 			sourceTree = "<group>";
 		};
+		1FFB45341E791D42008F1946 /* ImageCard */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB45371E791D53008F1946 /* frontier.jpg */,
+				1FFB45351E791D4F008F1946 /* ImageCardViewController.swift */,
+			);
+			name = ImageCard;
+			sourceTree = "<group>";
+		};
 		37AAF2E64021B15F2A89B857 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +324,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1FFB45341E791D42008F1946 /* ImageCard */,
 				1FFB45311E791B2E008F1946 /* Grid */,
 				1F2FFD2B1E7912AA00503E77 /* FABMenuController */,
 				1F459B0F1E790A5700788B03 /* CollectionView */,
@@ -579,6 +593,7 @@
 				1FEFF0C91E78EA2D0064A24B /* photo2.jpg in Resources */,
 				1FEFF0C81E78EA2D0064A24B /* photo1.jpg in Resources */,
 				BC9AE17B1E7043F300D3199C /* LaunchScreen.storyboard in Resources */,
+				1FFB45381E791D53008F1946 /* frontier.jpg in Resources */,
 				1F459B0D1E790A4E00788B03 /* surf.jpg in Resources */,
 				BC9AE1781E7043F300D3199C /* Assets.xcassets in Resources */,
 				BC9AE1731E7043F300D3199C /* Main.storyboard in Resources */,
@@ -764,6 +779,7 @@
 				1FF65CA11E76B197006783B1 /* MyButton.swift in Sources */,
 				BC50A89E1E735BEC00665614 /* LandingViewController.swift in Sources */,
 				1F459B121E790A6900788B03 /* CardCollectionViewCell.swift in Sources */,
+				1FFB45361E791D4F008F1946 /* ImageCardViewController.swift in Sources */,
 				BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */,
 				1FEFF0BC1E78EA160064A24B /* CardTableViewCell.swift in Sources */,
 				1FF65CA01E76B197006783B1 /* KoyomiViewController.swift in Sources */,
