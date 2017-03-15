@@ -59,6 +59,9 @@
 		1FD704461E794CEA0022854F /* UserTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD704411E794CEA0022854F /* UserTableView.swift */; };
 		1FD704481E794D490022854F /* SearchSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD704471E794D490022854F /* SearchSampleData.swift */; };
 		1FD7044A1E794D590022854F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD704491E794D590022854F /* SearchVC.swift */; };
+		1FD7044F1E7950CD0022854F /* AppSnackbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7044C1E7950CD0022854F /* AppSnackbarController.swift */; };
+		1FD704501E7950CD0022854F /* SBRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7044D1E7950CD0022854F /* SBRootViewController.swift */; };
+		1FD704511E7950CD0022854F /* SBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7044E1E7950CD0022854F /* SBViewController.swift */; };
 		1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */; };
 		1FEFF0B91E78EA160064A24B /* AppPageTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */; };
 		1FEFF0BA1E78EA160064A24B /* AppToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */; };
@@ -190,6 +193,9 @@
 		1FD704411E794CEA0022854F /* UserTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserTableView.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Search/UserTableView.swift; sourceTree = "<group>"; };
 		1FD704471E794D490022854F /* SearchSampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchSampleData.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Search/SearchSampleData.swift; sourceTree = "<group>"; };
 		1FD704491E794D590022854F /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchVC.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Search/SearchVC.swift; sourceTree = "<group>"; };
+		1FD7044C1E7950CD0022854F /* AppSnackbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSnackbarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/SnackbarController/AppSnackbarController.swift; sourceTree = "<group>"; };
+		1FD7044D1E7950CD0022854F /* SBRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBRootViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/SnackbarController/SBRootViewController.swift; sourceTree = "<group>"; };
+		1FD7044E1E7950CD0022854F /* SBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SBViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/SnackbarController/SBViewController.swift; sourceTree = "<group>"; };
 		1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFABMenuController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppFABMenuController.swift; sourceTree = "<group>"; };
 		1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppPageTabBarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppPageTabBarController.swift; sourceTree = "<group>"; };
 		1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppToolbarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppToolbarController.swift; sourceTree = "<group>"; };
@@ -415,6 +421,16 @@
 			name = Search;
 			sourceTree = "<group>";
 		};
+		1FD7044B1E7950B30022854F /* SnackbarController */ = {
+			isa = PBXGroup;
+			children = (
+				1FD7044C1E7950CD0022854F /* AppSnackbarController.swift */,
+				1FD7044D1E7950CD0022854F /* SBRootViewController.swift */,
+				1FD7044E1E7950CD0022854F /* SBViewController.swift */,
+			);
+			name = SnackbarController;
+			sourceTree = "<group>";
+		};
 		1FE6D9ED1E724448008094B9 /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -524,6 +540,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1FD7044B1E7950B30022854F /* SnackbarController */,
 				1FD7043C1E794CBF0022854F /* Search */,
 				1FD7041F1E794A880022854F /* PresenterCard */,
 				1F05D16A1E793BCE00200BB4 /* PhotoLibraryController */,
@@ -1025,7 +1042,9 @@
 				1FFB453B1E791E29008F1946 /* LayerViewController.swift in Sources */,
 				1F067A721E79263100E7D917 /* GreenViewController.swift in Sources */,
 				1F067A731E79263100E7D917 /* PageTabBarAppController.swift in Sources */,
+				1FD704511E7950CD0022854F /* SBViewController.swift in Sources */,
 				1FFB45361E791D4F008F1946 /* ImageCardViewController.swift in Sources */,
+				1FD704501E7950CD0022854F /* SBRootViewController.swift in Sources */,
 				BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */,
 				1FFB45461E792006008F1946 /* TransitionViewController.swift in Sources */,
 				1FD704481E794D490022854F /* SearchSampleData.swift in Sources */,
@@ -1043,6 +1062,7 @@
 				BC1B10091E784D3F00A9EA20 /* ButtonViewController.swift in Sources */,
 				1F2FFD331E7912B500503E77 /* FABRootViewController.swift in Sources */,
 				1FEFF0BA1E78EA160064A24B /* AppToolbarController.swift in Sources */,
+				1FD7044F1E7950CD0022854F /* AppSnackbarController.swift in Sources */,
 				1FF65C9A1E76B17E006783B1 /* StyleGenerator.swift in Sources */,
 				1F5950FF1E792B8500F565FE /* PhotoCollectionViewCell.swift in Sources */,
 				BC1B10191E784D5100A9EA20 /* VideoViewController.swift in Sources */,
