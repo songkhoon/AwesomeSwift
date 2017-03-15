@@ -40,6 +40,8 @@
 		1F5950FF1E792B8500F565FE /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5950FA1E792B8500F565FE /* PhotoCollectionViewCell.swift */; };
 		1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */; };
 		1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */; };
+		1FD704211E794A920022854F /* PresenterCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD704201E794A920022854F /* PresenterCardViewController.swift */; };
+		1FD704231E794A9B0022854F /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD704221E794A9B0022854F /* pattern.png */; };
 		1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */; };
 		1FEFF0B91E78EA160064A24B /* AppPageTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */; };
 		1FEFF0BA1E78EA160064A24B /* AppToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */; };
@@ -152,6 +154,8 @@
 		1F5950FA1E792B8500F565FE /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCollectionViewCell.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PhotoCollection/PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedCollectionViewLayoutViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/AnimatedCollectionViewLayoutViewController.swift; sourceTree = "<group>"; };
 		1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/ImageCollectionViewController.swift; sourceTree = "<group>"; };
+		1FD704201E794A920022854F /* PresenterCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresenterCardViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PresenterCard/PresenterCardViewController.swift; sourceTree = "<group>"; };
+		1FD704221E794A9B0022854F /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pattern.png; path = ../AwesomeSwift.playground/Resources/pattern.png; sourceTree = "<group>"; };
 		1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFABMenuController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppFABMenuController.swift; sourceTree = "<group>"; };
 		1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppPageTabBarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppPageTabBarController.swift; sourceTree = "<group>"; };
 		1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppToolbarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppToolbarController.swift; sourceTree = "<group>"; };
@@ -344,6 +348,15 @@
 			name = AnimatedCollectionViewLayout;
 			sourceTree = "<group>";
 		};
+		1FD7041F1E794A880022854F /* PresenterCard */ = {
+			isa = PBXGroup;
+			children = (
+				1FD704201E794A920022854F /* PresenterCardViewController.swift */,
+				1FD704221E794A9B0022854F /* pattern.png */,
+			);
+			name = PresenterCard;
+			sourceTree = "<group>";
+		};
 		1FE6D9ED1E724448008094B9 /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,6 +466,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1FD7041F1E794A880022854F /* PresenterCard */,
 				1F05D16A1E793BCE00200BB4 /* PhotoLibraryController */,
 				1F5950F51E792B7D00F565FE /* PhotoCollection */,
 				1F067A6B1E79262900E7D917 /* PageTabBarController */,
@@ -723,6 +737,7 @@
 				1FEFF0CF1E78EA2D0064A24B /* photo8.jpg in Resources */,
 				1F459B0C1E790A4E00788B03 /* meditation.jpg in Resources */,
 				1FEFF0CC1E78EA2D0064A24B /* photo5.jpg in Resources */,
+				1FD704231E794A9B0022854F /* pattern.png in Resources */,
 				1FEFF0CB1E78EA2D0064A24B /* photo4.jpg in Resources */,
 				1FFB453D1E791E2D008F1946 /* CosmicMind.png in Resources */,
 				1FEFF0CA1E78EA2D0064A24B /* photo3.jpg in Resources */,
@@ -927,6 +942,7 @@
 				BC1B10141E784D5100A9EA20 /* AudioViewController.swift in Sources */,
 				1FFB45451E792006008F1946 /* NavigationRootViewController.swift in Sources */,
 				1FFB45521E79238F008F1946 /* NavigationDrawerRightViewController.swift in Sources */,
+				1FD704211E794A920022854F /* PresenterCardViewController.swift in Sources */,
 				BC1B100A1E784D3F00A9EA20 /* MaterialViewController.swift in Sources */,
 				BC1B10171E784D5100A9EA20 /* RemindersViewController.swift in Sources */,
 				BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */,
