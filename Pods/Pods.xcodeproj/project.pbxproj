@@ -401,7 +401,7 @@
 		004146516227BD1D7DC7C8F5C986CF73 /* Search.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Search.swift; path = Sources/Search.swift; sourceTree = "<group>"; };
 		0133F514B765396BA746386F69CB35A7 /* TimelineContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineContainer.swift; path = Source/Timeline/TimelineContainer.swift; sourceTree = "<group>"; };
 		0233801A2B2F514E5EDEECF6D65F722B /* Pods-AwesomeSwiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeSwiftTests-resources.sh"; sourceTree = "<group>"; };
-		02A523A9F82C49EABBC715DE02AA7060 /* Motion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Motion.framework; path = Motion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A523A9F82C49EABBC715DE02AA7060 /* Motion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Motion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		030CCE9EC3E290303914A8ABDEE6D190 /* Pods-AwesomeSwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeSwiftTests-frameworks.sh"; sourceTree = "<group>"; };
 		0424D8FED024FCA75AA47AFDA1779AA3 /* AnimatedCollectionViewLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedCollectionViewLayout.xcconfig; sourceTree = "<group>"; };
 		04AD27B4218025B4C7DA82F884C43D43 /* Gravity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gravity.swift; path = Sources/iOS/Gravity.swift; sourceTree = "<group>"; };
@@ -409,7 +409,7 @@
 		07D82735AA3CCDDEFA7FE9FD6996F3BC /* SearchBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchBar.swift; path = Sources/iOS/SearchBar.swift; sourceTree = "<group>"; };
 		08477219D7CEC06C9B66C67FFF900224 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08707453C316BDD653A1BA189D239A61 /* KoyomiCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KoyomiCell.swift; path = Koyomi/KoyomiCell.swift; sourceTree = "<group>"; };
-		08B2CA0944B7AE786937295EEEDABBB5 /* Koyomi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Koyomi.modulemap; sourceTree = "<group>"; };
+		08B2CA0944B7AE786937295EEEDABBB5 /* Koyomi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Koyomi.modulemap; sourceTree = "<group>"; };
 		0905699FBD95E27F3B338FEE5C0C3BAD /* PulseAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PulseAnimation.swift; path = Sources/iOS/PulseAnimation.swift; sourceTree = "<group>"; };
 		0A1A58AB1304E68FD20072C45754E3EF /* NavigationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationItem.swift; path = Sources/iOS/NavigationItem.swift; sourceTree = "<group>"; };
 		0A30A2D956CC45F6D4FB2DB5CD901791 /* TextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = Sources/iOS/TextView.swift; sourceTree = "<group>"; };
@@ -422,7 +422,7 @@
 		0F2FBE5DA144F1D51F87936E184A7DF1 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = Sources/Action.swift; sourceTree = "<group>"; };
 		0F57C82C2955F0D3940A30C8CCB14866 /* Material+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+Array.swift"; path = "Sources/iOS/Material+Array.swift"; sourceTree = "<group>"; };
 		0FAFB26697EB358C5541D327EF1023C1 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Sources/Context.swift; sourceTree = "<group>"; };
-		0FD9761C4037DDDDC320A17066E45C8A /* Pods-AwesomeSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeSwiftTests.modulemap"; sourceTree = "<group>"; };
+		0FD9761C4037DDDDC320A17066E45C8A /* Pods-AwesomeSwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeSwiftTests.modulemap"; sourceTree = "<group>"; };
 		1079FCA0FCD6B142A265577206237D62 /* Editor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Editor.swift; path = Sources/iOS/Editor.swift; sourceTree = "<group>"; };
 		10879D1440D827E0084313ED4EA846DF /* Integer+DateTools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Integer+DateTools.swift"; path = "DateToolsSwift/DateTools/Integer+DateTools.swift"; sourceTree = "<group>"; };
 		1098D71580173066416B751BB7D19372 /* NeonGroupable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeonGroupable.swift; path = Source/NeonGroupable.swift; sourceTree = "<group>"; };
@@ -436,31 +436,31 @@
 		16C0A1510F31462DC67E01E531E35EAB /* CollectionReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionReusableView.swift; path = Sources/iOS/CollectionReusableView.swift; sourceTree = "<group>"; };
 		17D28B0E8CE1E2BB7B2857110757A8EA /* SearchBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchBarController.swift; path = Sources/iOS/SearchBarController.swift; sourceTree = "<group>"; };
 		18CA1680E06433DCFAD234FDCB576097 /* DynamicColor+Mixing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Mixing.swift"; path = "Sources/DynamicColor+Mixing.swift"; sourceTree = "<group>"; };
-		1935566EA337B2754718D321C854B9F5 /* CalendarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarKit.framework; path = CalendarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1935566EA337B2754718D321C854B9F5 /* CalendarKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalendarKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D030EAE4973AFF23660EEE786675030 /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Sources/iOS/Font.swift; sourceTree = "<group>"; };
 		1D7176EF01CBE4D727882E70DEC5F0ED /* CalendarKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarKit-prefix.pch"; sourceTree = "<group>"; };
 		1DC067AB0A38305C8CE21CF7128B73C9 /* Neon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neon-prefix.pch"; sourceTree = "<group>"; };
 		1F6BF14967BF7021FC8AABD220DA3D64 /* BottomNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomNavigationController.swift; path = Sources/iOS/BottomNavigationController.swift; sourceTree = "<group>"; };
 		2407476F3B99F47FE9211CE602FC6836 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24A202B53A6990EC1905DC3C1B6808E3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Regular.ttf"; path = "Sources/Font/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		24A202B53A6990EC1905DC3C1B6808E3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "Sources/Font/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		24DBE127214C5F5F115E89C543B6E9BB /* MomentFromNow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MomentFromNow.swift; path = SwiftMoment/SwiftMoment/MomentFromNow.swift; sourceTree = "<group>"; };
 		24FAB9A6F53D61B6FD297631526F0117 /* Date+Inits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Inits.swift"; path = "DateToolsSwift/DateTools/Date+Inits.swift"; sourceTree = "<group>"; };
-		26AF6924F491356C2D2DEE52BA54D138 /* Motion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Motion.modulemap; sourceTree = "<group>"; };
+		26AF6924F491356C2D2DEE52BA54D138 /* Motion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Motion.modulemap; sourceTree = "<group>"; };
 		26C24F41A9F2023CB2609ED8BB8043C8 /* TableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = Sources/iOS/TableViewController.swift; sourceTree = "<group>"; };
 		273B70DE5DBDDBE3DCDF5DBAE93C7B84 /* CollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = Sources/iOS/CollectionViewCell.swift; sourceTree = "<group>"; };
 		2796536FF182544CCBE611CBF4133D73 /* Toolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toolbar.swift; path = Sources/iOS/Toolbar.swift; sourceTree = "<group>"; };
-		286B9EAB5BA90115F2F98DF60E96FEAE /* Material.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Material.modulemap; sourceTree = "<group>"; };
+		286B9EAB5BA90115F2F98DF60E96FEAE /* Material.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Material.modulemap; sourceTree = "<group>"; };
 		287A9AAE76A80C8CB61A195282C87408 /* Pods-AwesomeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		2971AE94322902B1237405C1A597899E /* DateToolsSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DateToolsSwift.xcconfig; sourceTree = "<group>"; };
-		2A9414357C7FEF2A7A34FA9BDF29677F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Bold.ttf"; path = "Sources/Font/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2A9414357C7FEF2A7A34FA9BDF29677F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "Sources/Font/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		2A99C254479E5AE649F3FEB2B50DBD0F /* ManagedActionProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedActionProperty.swift; path = Sources/ManagedActionProperty.swift; sourceTree = "<group>"; };
 		2AB370780EAB09C43CB057759EADB096 /* CalendarKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarKit-dummy.m"; sourceTree = "<group>"; };
 		2AF9A8282D93808C945A00F7B542142C /* Pods-AwesomeSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B28DA197A246632E61A446029F49D4E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Medium.ttf"; path = "Sources/Font/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		2B28DA197A246632E61A446029F49D4E /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "Sources/Font/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		2B56E250AFCA7FB580269120E7F06CEF /* Date+Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Format.swift"; path = "DateToolsSwift/DateTools/Date+Format.swift"; sourceTree = "<group>"; };
 		2DA00A472CA8C7B783366F0266FCC5E8 /* ManagedEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedEntity.swift; path = Sources/ManagedEntity.swift; sourceTree = "<group>"; };
 		2EA50615A05F46E7AB679CFCC9426141 /* AnimatedCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
-		2EAD09881D40D9064906337A83D88008 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicColor.framework; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAD09881D40D9064906337A83D88008 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		311BE0D26DDA9E5C41DFE665BA677566 /* Material+Obj-C.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+Obj-C.swift"; path = "Sources/iOS/Material+Obj-C.swift"; sourceTree = "<group>"; };
 		31FC808DD7935B5269355E3E368E1CE7 /* CalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarView.swift; path = CalendarView/CalendarView/Classes/CalendarView.swift; sourceTree = "<group>"; };
 		32A687FABC03D3FEB88BFB84FE1CF57D /* Pods-AwesomeSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -469,11 +469,11 @@
 		3533D5725E69F4A0765142160DDE064C /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Sources/iOS/Layout.swift; sourceTree = "<group>"; };
 		3589D7C61FEF8FA3940DCECF184ECF65 /* ImageCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCard.swift; path = Sources/iOS/ImageCard.swift; sourceTree = "<group>"; };
 		35B4EA4A4D3D2EF45FCD4B8C32859AAE /* TableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = Sources/iOS/TableViewCell.swift; sourceTree = "<group>"; };
-		35D219A6AEE08197649B0F5488AAFC7D /* Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Material.framework; path = Material.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D219A6AEE08197649B0F5488AAFC7D /* Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Material.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		383D87BF5882DA137641779012A49457 /* CubeAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeAttributesAnimator.swift; path = Source/CubeAttributesAnimator.swift; sourceTree = "<group>"; };
 		39600375E5EC31235A3B538315F0A891 /* DateToolsSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DateToolsSwift-prefix.pch"; sourceTree = "<group>"; };
 		3D32C5D4383C8396470259DF2E5A83E2 /* TimeChunk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeChunk.swift; path = DateToolsSwift/DateTools/TimeChunk.swift; sourceTree = "<group>"; };
-		3DFCDF3630D92E870D6C077D54C856AA /* Graph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Graph.framework; path = Graph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFCDF3630D92E870D6C077D54C856AA /* Graph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Graph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6F8786F4CFAAEBA848B9CDEA09DD7B /* Date+Comparators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Comparators.swift"; path = "DateToolsSwift/DateTools/Date+Comparators.swift"; sourceTree = "<group>"; };
 		3F58001674A595A8FED689F0ADBEE53E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F8CB6BCEBF607D59B947AE83712D071 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = SwiftMoment/SwiftMoment/Extensions.swift; sourceTree = "<group>"; };
@@ -485,21 +485,21 @@
 		45799D7DBCB018D19F068FD1282234DD /* Grid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Grid.swift; path = Sources/iOS/Grid.swift; sourceTree = "<group>"; };
 		468911F60C686E64B47D8A28CC6F2102 /* DynamicFontType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicFontType.swift; path = Sources/iOS/DynamicFontType.swift; sourceTree = "<group>"; };
 		46A8622A8B8E86655BB200B0074A0303 /* Neon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Neon-umbrella.h"; sourceTree = "<group>"; };
-		46FB58FC15B9750E5DE854657F81C9A9 /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Light.ttf"; path = "Sources/Font/Roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		46FB58FC15B9750E5DE854657F81C9A9 /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "Sources/Font/Roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		475E1CD35ABEE7471125A48FF0D0E591 /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Sources/iOS/Card.swift; sourceTree = "<group>"; };
 		47C90D21D52B23840E2F655EEF0EDA79 /* Entity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = Sources/Entity.swift; sourceTree = "<group>"; };
 		486F2F0745EC2F9E5C5108CC6FDE3062 /* SwiftMoment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMoment-prefix.pch"; sourceTree = "<group>"; };
 		49151328B6C918415DEF7F6625A7C197 /* ManagedProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedProperty.swift; path = Sources/ManagedProperty.swift; sourceTree = "<group>"; };
 		49880EA79F5A4E2D0B15E04A7C716957 /* Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = Sources/Graph.swift; sourceTree = "<group>"; };
 		49FFE8D1A34197FFC8DA418545402089 /* Graph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Graph.xcconfig; sourceTree = "<group>"; };
-		4ABE76CEF133CB626A0DFB3DE52B27EC /* Roboto-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Thin.ttf"; path = "Sources/Font/Roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4ABE76CEF133CB626A0DFB3DE52B27EC /* Roboto-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "Sources/Font/Roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		4AD6DD91EF189107B1F420BFC27EFF3B /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = SwiftMoment/SwiftMoment/Duration.swift; sourceTree = "<group>"; };
 		4AEDD3E65DCBBED5B9A0F1ACA7116F44 /* Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Display.swift; path = Sources/iOS/Display.swift; sourceTree = "<group>"; };
-		4B894CFDA716B6D0F9A693C8B44E27CB /* Neon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Neon.framework; path = Neon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B894CFDA716B6D0F9A693C8B44E27CB /* Neon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C69B6EDBD167322B364944DD5A3F3F4 /* CharacterAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterAttribute.swift; path = Sources/iOS/CharacterAttribute.swift; sourceTree = "<group>"; };
 		4EEC71F7CADD9B7767517EE38FBA9729 /* ManagedNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedNode.swift; path = Sources/ManagedNode.swift; sourceTree = "<group>"; };
 		4F23E7F6CBB1D21EE67FDBF766B70551 /* CurrentTimeIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentTimeIndicator.swift; path = Source/Timeline/CurrentTimeIndicator.swift; sourceTree = "<group>"; };
-		5003659BCCF40C7F999A69EADC4C867B /* Koyomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Koyomi.framework; path = Koyomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5003659BCCF40C7F999A69EADC4C867B /* Koyomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Koyomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		510B711A6E38827EF786DA5453685611 /* ContrastDisplayContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContrastDisplayContext.swift; path = Sources/ContrastDisplayContext.swift; sourceTree = "<group>"; };
 		527A893BBAD3DF84F8D2715D76689399 /* ManagedRelationshipGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedRelationshipGroup.swift; path = Sources/ManagedRelationshipGroup.swift; sourceTree = "<group>"; };
 		529C1FEDEAC6864BFFA1EDCC1D1391CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -508,7 +508,7 @@
 		540B60725748B7AA2CCA8ACE71FDBB43 /* EasyCast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyCast.swift; path = CalendarView/CalendarView/Classes/EasyCast.swift; sourceTree = "<group>"; };
 		551E9E80D54AA828EE1403FE6A7A0543 /* Motion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.xcconfig; sourceTree = "<group>"; };
 		56671DE19A10D25DD49FE457FFD5CCB2 /* ResourceBundle-com.cosmicmind.material.fonts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-com.cosmicmind.material.fonts-Info.plist"; sourceTree = "<group>"; };
-		58BA963F504563219CAC9EC1DBCB1743 /* SwiftMoment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMoment.framework; path = SwiftMoment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BA963F504563219CAC9EC1DBCB1743 /* SwiftMoment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMoment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C668AC2D5F304A101457A1BC70BA66 /* ScrollSyncronizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollSyncronizer.swift; path = Source/Timeline/ScrollSyncronizer.swift; sourceTree = "<group>"; };
 		59583C4EB6EF31F31CBCD7A13A007907 /* DynamicColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-prefix.pch"; sourceTree = "<group>"; };
 		59EA06CED7583849F385D063C55AD366 /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Model.swift; path = Sources/Model.swift; sourceTree = "<group>"; };
@@ -524,7 +524,7 @@
 		65F4741F23829E0FE42863C68510E6FE /* Moment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moment.swift; path = SwiftMoment/SwiftMoment/Moment.swift; sourceTree = "<group>"; };
 		6601615163683FC0B5D48AEEF4FC2964 /* Motion+Obj-C.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Obj-C.swift"; path = "Sources/Motion+Obj-C.swift"; sourceTree = "<group>"; };
 		6644F46C92D2EED3E847E062E5C57F27 /* FABMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FABMenu.swift; path = Sources/iOS/FABMenu.swift; sourceTree = "<group>"; };
-		67452DE06749605D165B42DB66A3DAF1 /* Pods-AwesomeSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		67452DE06749605D165B42DB66A3DAF1 /* Pods-AwesomeSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeSwiftUITests.modulemap"; sourceTree = "<group>"; };
 		67BFB3BD06B1E562A61E232C698EAFE1 /* NeonFrameable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeonFrameable.swift; path = Source/NeonFrameable.swift; sourceTree = "<group>"; };
 		67D5964E6BC618E0DECDF88885507BBB /* Pods-AwesomeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeSwift-dummy.m"; sourceTree = "<group>"; };
 		67F8D28C667F2AA498815B331D44BBB3 /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = Sources/MotionAnimation.swift; sourceTree = "<group>"; };
@@ -553,7 +553,7 @@
 		7BCD3D81B9BDA67FAB9E80CFA1A81F65 /* Koyomi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Koyomi.swift; path = Koyomi/Koyomi.swift; sourceTree = "<group>"; };
 		7D3112F52CA667307AC7E13F8E69322E /* Date+DateOnly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+DateOnly.swift"; path = "Source/Extensions/Date+DateOnly.swift"; sourceTree = "<group>"; };
 		7DA2222CD8510B5ABDD138FDDC4DA779 /* DateTools.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = DateToolsSwift/DateTools/DateTools.bundle; sourceTree = "<group>"; };
-		7E0F899BE7F39FAF94CBEB6158D2630B /* Pods_AwesomeSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeSwiftTests.framework; path = "Pods-AwesomeSwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0F899BE7F39FAF94CBEB6158D2630B /* Pods_AwesomeSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3D12B3AC4852A786816B04B04894E6 /* CalendarView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarView-prefix.pch"; sourceTree = "<group>"; };
 		7F1F3D4CF624650E236CF29924DB569D /* IconButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IconButton.swift; path = Sources/iOS/IconButton.swift; sourceTree = "<group>"; };
 		7F633D3A4B16C776CB57784322CEE453 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Sources/iOS/Color.swift; sourceTree = "<group>"; };
@@ -562,12 +562,12 @@
 		80C0E758DDF36335F4840246316FBC75 /* Neon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Neon.xcconfig; sourceTree = "<group>"; };
 		80EC9433896192BB19D8C061C85CD090 /* Material+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+CALayer.swift"; path = "Sources/iOS/Material+CALayer.swift"; sourceTree = "<group>"; };
 		840BBB7FCD3C94D8A6EFDF4F9C6E6E38 /* Pods-AwesomeSwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeSwiftTests-dummy.m"; sourceTree = "<group>"; };
-		843BADEB4130A40E74B2E1E203D7FA29 /* CalendarKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CalendarKit.modulemap; sourceTree = "<group>"; };
+		843BADEB4130A40E74B2E1E203D7FA29 /* CalendarKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CalendarKit.modulemap; sourceTree = "<group>"; };
 		84C9903D80323BAD1767D21F03B1D36F /* TimeUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeUnit.swift; path = SwiftMoment/SwiftMoment/TimeUnit.swift; sourceTree = "<group>"; };
 		85D1C8E8F69C84E44162791061394FFA /* Date+Manipulations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Manipulations.swift"; path = "DateToolsSwift/DateTools/Date+Manipulations.swift"; sourceTree = "<group>"; };
 		87080CDA6FFE19D2FD3BE27028809E83 /* SnackbarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnackbarController.swift; path = Sources/iOS/SnackbarController.swift; sourceTree = "<group>"; };
 		8822B53E5E5CFE5DD7E82745CC026FEA /* Graph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Graph-umbrella.h"; sourceTree = "<group>"; };
-		8A4453B301AD5B8CB34BA7D6CFE09618 /* SwiftMoment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftMoment.modulemap; sourceTree = "<group>"; };
+		8A4453B301AD5B8CB34BA7D6CFE09618 /* SwiftMoment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftMoment.modulemap; sourceTree = "<group>"; };
 		8A748ADB0FBA5A54F5F260815EB8878F /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = DateToolsSwift/DateTools/Constants.swift; sourceTree = "<group>"; };
 		8D1AE2B2E07FA4C53C9CC615D200840E /* TabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBar.swift; path = Sources/iOS/TabBar.swift; sourceTree = "<group>"; };
 		8D264DC734147C48CF47A521B110B500 /* DynamicColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicColor-dummy.m"; sourceTree = "<group>"; };
@@ -580,9 +580,9 @@
 		9081788DD817B81DA5D645351AF8C138 /* Motion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-umbrella.h"; sourceTree = "<group>"; };
 		9112685922655265C51E12AF509534ED /* DayHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayHeaderView.swift; path = Source/Header/DayHeaderView.swift; sourceTree = "<group>"; };
 		91B601625A8CAFC150931FC92925DE01 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = Koyomi/UIViewExtension.swift; sourceTree = "<group>"; };
-		9291BF2771F18DB42124EEA7AD943F1A /* Pods_AwesomeSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeSwiftUITests.framework; path = "Pods-AwesomeSwiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9291BF2771F18DB42124EEA7AD943F1A /* Pods_AwesomeSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F325501D16ED859E0C4E05FCE45FF6 /* DynamicColor+RGBA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+RGBA.swift"; path = "Sources/DynamicColor+RGBA.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E5B4486593C9ED882BAE201EB1CBF2 /* ManagedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedObject.swift; path = Sources/ManagedObject.swift; sourceTree = "<group>"; };
 		951EB96A74597F9D4CCDEC262F0DEBCA /* Pods-AwesomeSwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeSwiftTests-umbrella.h"; sourceTree = "<group>"; };
 		95398863098084C177C28D14415A31CC /* FABButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FABButton.swift; path = Sources/iOS/FABButton.swift; sourceTree = "<group>"; };
@@ -627,7 +627,7 @@
 		AEEFE35C574950CC61A9B68FEA5FB88F /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "DateToolsSwift/DateTools/Date+Components.swift"; sourceTree = "<group>"; };
 		B0057843A4816CB54F86DD30DCBEAB36 /* RobotoFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RobotoFont.swift; path = Sources/iOS/RobotoFont.swift; sourceTree = "<group>"; };
 		B0A4C76306C305B1EC737988A6F21E08 /* Pods-AwesomeSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeSwiftUITests-dummy.m"; sourceTree = "<group>"; };
-		B23A87F5B2B38AC236C80A171B447C9F /* DateToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DateToolsSwift.framework; path = DateToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23A87F5B2B38AC236C80A171B447C9F /* DateToolsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DateToolsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24BF88130E3EB5E02E93E4BCD29716D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3FB080ED870DB8F14AA096402CB9776 /* DynamicColor+XYZ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+XYZ.swift"; path = "Sources/DynamicColor+XYZ.swift"; sourceTree = "<group>"; };
 		B462E6BC2DA62854557020829B9317D3 /* DynamicColor+HSB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+HSB.swift"; path = "Sources/DynamicColor+HSB.swift"; sourceTree = "<group>"; };
@@ -637,13 +637,13 @@
 		B6777DE8156ABC3C23D6B2227B1B3A8D /* Pods-AwesomeSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B69A67386AA24613954EB9D5FF5D80D0 /* SwiftMoment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMoment-umbrella.h"; sourceTree = "<group>"; };
 		B6ABBC33E27FEAD1A374B28FBFD95AE5 /* Material+Motion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+Motion.swift"; path = "Sources/iOS/Material+Motion.swift"; sourceTree = "<group>"; };
-		B6DFEE9452CCB9EE8A69491F94C86B4C /* DateToolsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DateToolsSwift.modulemap; sourceTree = "<group>"; };
+		B6DFEE9452CCB9EE8A69491F94C86B4C /* DateToolsSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DateToolsSwift.modulemap; sourceTree = "<group>"; };
 		B780AC494E26DDD7BB3AC063F36CB7BF /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Sources/iOS/SpringAnimation.swift; sourceTree = "<group>"; };
 		B7A946FB6D73AD258D2ADA2E1ADA2C4A /* Material+UIWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIWindow.swift"; path = "Sources/iOS/Material+UIWindow.swift"; sourceTree = "<group>"; };
 		B9BBE7F3997AE0C10FA93C0E4914AFF5 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = Sources/iOS/TextField.swift; sourceTree = "<group>"; };
-		B9E93499BDDFB832D11D91B308DB42DD /* CalendarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CalendarView.bundle; path = CalendarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E93499BDDFB832D11D91B308DB42DD /* CalendarView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA16ADC80F48EC9BB8ADCCD6F2EE7CD0 /* Pods-AwesomeSwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeSwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BA1E44FED660DBFE434EC90207D3C793 /* com.cosmicmind.material.fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = com.cosmicmind.material.fonts.bundle; path = com.cosmicmind.material.fonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1E44FED660DBFE434EC90207D3C793 /* com.cosmicmind.material.fonts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.cosmicmind.material.fonts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0C53C9708DA3A6F870703587CE7A2B /* CollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewLayout.swift; path = Sources/iOS/CollectionViewLayout.swift; sourceTree = "<group>"; };
 		BC614366F355FD6053FE05A56E0B5E88 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Sources/iOS/Device.swift; sourceTree = "<group>"; };
 		BF5F220FB71091CF610F2DC4B84DD97F /* MonthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthView.swift; path = CalendarView/CalendarView/Classes/MonthView.swift; sourceTree = "<group>"; };
@@ -657,7 +657,7 @@
 		C4F07090B562C8FC8062D8E3C6ECB071 /* KoyomiLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KoyomiLayout.swift; path = Koyomi/KoyomiLayout.swift; sourceTree = "<group>"; };
 		C4FEA45ACD0FFAA768F5D06F02DA01EE /* Pods-AwesomeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeSwift-umbrella.h"; sourceTree = "<group>"; };
 		C55C3824C1B03CA1E907F5C819F2C195 /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = DateToolsSwift/DateTools/TimePeriodChain.swift; sourceTree = "<group>"; };
-		C5CE319C510DF42B293FEA5DF14FD995 /* Pods-AwesomeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeSwift.modulemap"; sourceTree = "<group>"; };
+		C5CE319C510DF42B293FEA5DF14FD995 /* Pods-AwesomeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeSwift.modulemap"; sourceTree = "<group>"; };
 		C5DF1F197D882D0E425C877C5BB037A7 /* DayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayView.swift; path = Source/DayView.swift; sourceTree = "<group>"; };
 		C6A69575C79A4031AB8F9928059AE347 /* CollectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = Sources/iOS/CollectionViewController.swift; sourceTree = "<group>"; };
 		C6E84EAE97FB6EC38924C62016234A94 /* Koyomi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Koyomi.xcconfig; sourceTree = "<group>"; };
@@ -665,16 +665,16 @@
 		C7E7BC83A2E16FFF935A2CCFA57E0249 /* Material-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Material-dummy.m"; sourceTree = "<group>"; };
 		C83F1C9FD65FFD10514731603BF9CE45 /* ErrorTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorTextField.swift; path = Sources/iOS/ErrorTextField.swift; sourceTree = "<group>"; };
 		CA240160CBB944EB5081A0E1CCD55A1E /* Material-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Material-prefix.pch"; sourceTree = "<group>"; };
-		CA66157ECB679B74D3FF668164753733 /* AnimatedCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnimatedCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		CA66157ECB679B74D3FF668164753733 /* AnimatedCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AnimatedCollectionViewLayout.modulemap; sourceTree = "<group>"; };
 		CB4FFACBBA295BBEA64516E0190B898F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC14E35DBCB5917E45884E4E053ED514 /* Neon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Neon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEB5D94666D174EAC78A6E7A0E17A85 /* ManagedEntityGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedEntityGroup.swift; path = Sources/ManagedEntityGroup.swift; sourceTree = "<group>"; };
 		CEDCA150D8F9518F5DCCDE48BFA22B89 /* Date+Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Bundle.swift"; path = "DateToolsSwift/DateTools/Date+Bundle.swift"; sourceTree = "<group>"; };
-		D02A5E90223DD28B241DE5778D7E76CE /* CalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarView.framework; path = CalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02A5E90223DD28B241DE5778D7E76CE /* CalendarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalendarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04AFDF737E61815C2D2E344EB489A55 /* ToolbarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolbarController.swift; path = Sources/iOS/ToolbarController.swift; sourceTree = "<group>"; };
 		D0A56095E8B6E2E8330F2FE19467754D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1CDA3625E079ADD29BC5F3D8CB555BF /* Screen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Screen.swift; path = Sources/iOS/Screen.swift; sourceTree = "<group>"; };
-		D47553806F894EA3E980BD7FCA4DB768 /* AnimatedCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnimatedCollectionViewLayout.framework; path = AnimatedCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47553806F894EA3E980BD7FCA4DB768 /* AnimatedCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimatedCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5246A9A96B1200A1AE77483F48E8D90 /* Material-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Material-umbrella.h"; sourceTree = "<group>"; };
 		D5B6EA74B011786998F1DB476AE57F9E /* Motion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-prefix.pch"; sourceTree = "<group>"; };
 		D5C2457936721E1BD798C9B3464FEB4D /* BottomTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomTabBar.swift; path = Sources/iOS/BottomTabBar.swift; sourceTree = "<group>"; };
@@ -684,19 +684,19 @@
 		D88FAFA78BC05013575F2E4663943C55 /* Pods-AwesomeSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D961410A7012D53C2ACB7E27465D46D6 /* Date+TimeAgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+TimeAgo.swift"; path = "DateToolsSwift/DateTools/Date+TimeAgo.swift"; sourceTree = "<group>"; };
 		D9F5BAA509FED1B17055E9B747B32CA5 /* Graph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Graph-dummy.m"; sourceTree = "<group>"; };
-		D9FD30EDDB13ED03ED2D44255F6537E3 /* Neon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Neon.modulemap; sourceTree = "<group>"; };
+		D9FD30EDDB13ED03ED2D44255F6537E3 /* Neon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Neon.modulemap; sourceTree = "<group>"; };
 		DA655918B0E267F6CE8A2A2DD4AFDC23 /* DayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayViewController.swift; path = Source/DayViewController.swift; sourceTree = "<group>"; };
 		DB8EA9517607CE2CD5BFFC658E16F365 /* Koyomi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Koyomi-prefix.pch"; sourceTree = "<group>"; };
 		DCB6E549F9770795477F9EC73E49635E /* DateModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateModel.swift; path = Koyomi/DateModel.swift; sourceTree = "<group>"; };
 		DCCCF43A5A7120CAACB96731F12A5F4B /* Array+Shift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Shift.swift"; path = "Source/Extensions/Array+Shift.swift"; sourceTree = "<group>"; };
 		DCCEBBCD46251B26674383FC05FE2860 /* StatusBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBarController.swift; path = Sources/iOS/StatusBarController.swift; sourceTree = "<group>"; };
 		DD883478C9481ED18DEF9F810FC45C24 /* PageTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageTabBarController.swift; path = Sources/iOS/PageTabBarController.swift; sourceTree = "<group>"; };
-		DDB36F026623C9CFA46B2B2865086F34 /* com.cosmicmind.material.icons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = com.cosmicmind.material.icons.bundle; path = com.cosmicmind.material.icons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		DECD00EE62D1CC6E2704BA95F15E4DB6 /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DynamicColor.modulemap; sourceTree = "<group>"; };
+		DDB36F026623C9CFA46B2B2865086F34 /* com.cosmicmind.material.icons.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.cosmicmind.material.icons.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DECD00EE62D1CC6E2704BA95F15E4DB6 /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DynamicColor.modulemap; sourceTree = "<group>"; };
 		DF2BBC67592079DE4BCADE2E9660CDD4 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Sources/iOS/EdgeInsets.swift; sourceTree = "<group>"; };
 		DF7AFEB469452A0391A30282D057DA30 /* NavigationDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationDrawerController.swift; path = Sources/iOS/NavigationDrawerController.swift; sourceTree = "<group>"; };
 		E089A9AA1FE58F0DB56646A84869B4B7 /* MomentFromNow.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MomentFromNow.bundle; path = SwiftMoment/SwiftMoment/MomentFromNow.bundle; sourceTree = "<group>"; };
-		E0DAF3B1EB556441644A0E5ED2891341 /* Pods_AwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeSwift.framework; path = "Pods-AwesomeSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DAF3B1EB556441644A0E5ED2891341 /* Pods_AwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FEB2754F2750BAD5443683DD7B1CE0 /* CalendarKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarKit-umbrella.h"; sourceTree = "<group>"; };
 		E1795414A6F577347D8B68764CD91AC6 /* DynamicColor+HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+HSL.swift"; path = "Sources/DynamicColor+HSL.swift"; sourceTree = "<group>"; };
 		E199879358AF2CA85A1B0579916AC667 /* DynamicColor+Lab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Lab.swift"; path = "Sources/DynamicColor+Lab.swift"; sourceTree = "<group>"; };
@@ -722,10 +722,10 @@
 		F68096223A04E9D04ACA48156478E9EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8900CF156EDC36632DC603A8573EE6E /* ResourceBundle-com.cosmicmind.material.icons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-com.cosmicmind.material.icons-Info.plist"; sourceTree = "<group>"; };
 		F904EBDC5441457AD7E464B5228A617E /* Material+MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+MotionAnimation.swift"; path = "Sources/iOS/Material+MotionAnimation.swift"; sourceTree = "<group>"; };
-		FB1508FCD8083097416B5D5B2CE46FAB /* Graph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Graph.modulemap; sourceTree = "<group>"; };
+		FB1508FCD8083097416B5D5B2CE46FAB /* Graph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Graph.modulemap; sourceTree = "<group>"; };
 		FBFCA75D4C08B5CB18D5CAB68FFAB710 /* LayoutAttributesAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAttributesAnimator.swift; path = Source/LayoutAttributesAnimator.swift; sourceTree = "<group>"; };
 		FC349B4E4F4B6EACE903CF08B49A98A0 /* ManagedAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagedAction.swift; path = Sources/ManagedAction.swift; sourceTree = "<group>"; };
-		FC7398D7A9C9A13B22AB079A0C547CFB /* CalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CalendarView.modulemap; sourceTree = "<group>"; };
+		FC7398D7A9C9A13B22AB079A0C547CFB /* CalendarView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CalendarView.modulemap; sourceTree = "<group>"; };
 		FCC6AC628E0C3B1A90A634610087F9CE /* NeonAnchorable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NeonAnchorable.swift; path = Source/NeonAnchorable.swift; sourceTree = "<group>"; };
 		FE9887FA4EAD7EFF6A391CBDE84AF140 /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = DateToolsSwift/DateTools/TimePeriod.swift; sourceTree = "<group>"; };
 		FFFB30F146E2B0CFE8FF46429F99C47B /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = Sources/Coordinator.swift; sourceTree = "<group>"; };
@@ -903,7 +903,6 @@
 				1330DBF1FBBEAA66BB70388F01195BCF /* WeekView.swift */,
 				4AB0B028EAA90EB96D35D320A3566BCB /* Support Files */,
 			);
-			name = CalendarView;
 			path = CalendarView;
 			sourceTree = "<group>";
 		};
@@ -943,7 +942,6 @@
 				7A4F248AA2B5044978751F08B4E4F226 /* Watch.swift */,
 				DE3171A82EE1DFD83C9C8CEA71312BAD /* Support Files */,
 			);
-			name = Graph;
 			path = Graph;
 			sourceTree = "<group>";
 		};
@@ -977,7 +975,6 @@
 				724D18BF463EDD4A0DAB2C82A2C614F2 /* ZoomInOutAttributesAnimator.swift */,
 				0CB9AE3134D0597A86BA8D8B27297D59 /* Support Files */,
 			);
-			name = AnimatedCollectionViewLayout;
 			path = AnimatedCollectionViewLayout;
 			sourceTree = "<group>";
 		};
@@ -1032,7 +1029,6 @@
 				2EC2346FB94D58AF3E9F83618A714C76 /* Resources */,
 				77BF893D74E77E1ABA5081408EE9B308 /* Support Files */,
 			);
-			name = DateToolsSwift;
 			path = DateToolsSwift;
 			sourceTree = "<group>";
 		};
@@ -1098,7 +1094,6 @@
 				91B601625A8CAFC150931FC92925DE01 /* UIViewExtension.swift */,
 				4F13530991C528408D7D966D32B5EB91 /* Support Files */,
 			);
-			name = Koyomi;
 			path = Koyomi;
 			sourceTree = "<group>";
 		};
@@ -1209,7 +1204,6 @@
 				1098D71580173066416B751BB7D19372 /* NeonGroupable.swift */,
 				96FA24A2C0CBEB63B1774AC9268F3F90 /* Support Files */,
 			);
-			name = Neon;
 			path = Neon;
 			sourceTree = "<group>";
 		};
@@ -1219,7 +1213,6 @@
 				C0FAE93189E4869DD5E7CE4C054F3FB9 /* Core */,
 				0DF889AB0079B734DFC238B8AC72A0FA /* Support Files */,
 			);
-			name = Material;
 			path = Material;
 			sourceTree = "<group>";
 		};
@@ -1237,7 +1230,6 @@
 				52CF6B1AE9E3DB8172DBC3F3861C8DE9 /* Resources */,
 				201D69118A42DE95C86C912E6E8A53C1 /* Support Files */,
 			);
-			name = SwiftMoment;
 			path = SwiftMoment;
 			sourceTree = "<group>";
 		};
@@ -1310,7 +1302,6 @@
 				4A41F1E296718CC5EC98D7F430ADDB95 /* Core */,
 				ED1FB3C019F9DEC7146049488A9B15AD /* Support Files */,
 			);
-			name = Motion;
 			path = Motion;
 			sourceTree = "<group>";
 		};
@@ -1475,7 +1466,6 @@
 				A970109CB623A6345E5815702A124945 /* TimelineView.swift */,
 				CC0A5106BC5EC31CDE1323EAE6E0FBE7 /* Support Files */,
 			);
-			name = CalendarKit;
 			path = CalendarKit;
 			sourceTree = "<group>";
 		};
@@ -1498,7 +1488,6 @@
 				A17B3AC27A2C8A92F868EC5A0C998231 /* Utils.swift */,
 				0B45DF5D63476ADF41898304ACCFC8AA /* Support Files */,
 			);
-			name = DynamicColor;
 			path = DynamicColor;
 			sourceTree = "<group>";
 		};
@@ -2549,7 +2538,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CalendarView/CalendarView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CalendarView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CalendarView/CalendarView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -2733,7 +2722,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CalendarView/CalendarView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CalendarView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CalendarView/CalendarView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
