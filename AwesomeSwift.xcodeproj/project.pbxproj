@@ -14,6 +14,22 @@
 		1F16442F1E76822B009D70A0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442E1E76822B009D70A0 /* Helper.swift */; };
 		1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */; };
 		1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */; };
+		1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */; };
+		1FEFF0B91E78EA160064A24B /* AppPageTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */; };
+		1FEFF0BA1E78EA160064A24B /* AppToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */; };
+		1FEFF0BB1E78EA160064A24B /* CardTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B31E78EA160064A24B /* CardTableView.swift */; };
+		1FEFF0BC1E78EA160064A24B /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B41E78EA160064A24B /* CardTableViewCell.swift */; };
+		1FEFF0BD1E78EA160064A24B /* CardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B51E78EA160064A24B /* CardTableViewController.swift */; };
+		1FEFF0BE1E78EA160064A24B /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B61E78EA160064A24B /* PostsViewController.swift */; };
+		1FEFF0BF1E78EA160064A24B /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B71E78EA160064A24B /* SampleData.swift */; };
+		1FEFF0C81E78EA2D0064A24B /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF0C01E78EA2D0064A24B /* photo1.jpg */; };
+		1FEFF0C91E78EA2D0064A24B /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF0C11E78EA2D0064A24B /* photo2.jpg */; };
+		1FEFF0CA1E78EA2D0064A24B /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF0C21E78EA2D0064A24B /* photo3.jpg */; };
+		1FEFF0CB1E78EA2D0064A24B /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF0C31E78EA2D0064A24B /* photo4.jpg */; };
+		1FEFF0CC1E78EA2D0064A24B /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF0C41E78EA2D0064A24B /* photo5.jpg */; };
+		1FEFF0CD1E78EA2D0064A24B /* photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF0C51E78EA2D0064A24B /* photo6.jpg */; };
+		1FEFF0CE1E78EA2D0064A24B /* photo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF0C61E78EA2D0064A24B /* photo7.jpg */; };
+		1FEFF0CF1E78EA2D0064A24B /* photo8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF0C71E78EA2D0064A24B /* photo8.jpg */; };
 		1FF65C991E76B17E006783B1 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C971E76B17E006783B1 /* ExampleController.swift */; };
 		1FF65C9A1E76B17E006783B1 /* StyleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C981E76B17E006783B1 /* StyleGenerator.swift */; };
 		1FF65C9C1E76B18A006783B1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C9B1E76B18A006783B1 /* CalendarViewController.swift */; };
@@ -68,6 +84,22 @@
 		1F16442E1E76822B009D70A0 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../AwesomeSwift.playground/Sources/Helper.swift; sourceTree = "<group>"; };
 		1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedCollectionViewLayoutViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/AnimatedCollectionViewLayoutViewController.swift; sourceTree = "<group>"; };
 		1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/ImageCollectionViewController.swift; sourceTree = "<group>"; };
+		1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFABMenuController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppFABMenuController.swift; sourceTree = "<group>"; };
+		1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppPageTabBarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppPageTabBarController.swift; sourceTree = "<group>"; };
+		1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppToolbarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppToolbarController.swift; sourceTree = "<group>"; };
+		1FEFF0B31E78EA160064A24B /* CardTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardTableView.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/CardTableView.swift; sourceTree = "<group>"; };
+		1FEFF0B41E78EA160064A24B /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardTableViewCell.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/CardTableViewCell.swift; sourceTree = "<group>"; };
+		1FEFF0B51E78EA160064A24B /* CardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardTableViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/CardTableViewController.swift; sourceTree = "<group>"; };
+		1FEFF0B61E78EA160064A24B /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostsViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/PostsViewController.swift; sourceTree = "<group>"; };
+		1FEFF0B71E78EA160064A24B /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleData.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/SampleData.swift; sourceTree = "<group>"; };
+		1FEFF0C01E78EA2D0064A24B /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo1.jpg; path = ../AwesomeSwift.playground/Resources/photo1.jpg; sourceTree = "<group>"; };
+		1FEFF0C11E78EA2D0064A24B /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo2.jpg; path = ../AwesomeSwift.playground/Resources/photo2.jpg; sourceTree = "<group>"; };
+		1FEFF0C21E78EA2D0064A24B /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo3.jpg; path = ../AwesomeSwift.playground/Resources/photo3.jpg; sourceTree = "<group>"; };
+		1FEFF0C31E78EA2D0064A24B /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo4.jpg; path = ../AwesomeSwift.playground/Resources/photo4.jpg; sourceTree = "<group>"; };
+		1FEFF0C41E78EA2D0064A24B /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo5.jpg; path = ../AwesomeSwift.playground/Resources/photo5.jpg; sourceTree = "<group>"; };
+		1FEFF0C51E78EA2D0064A24B /* photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo6.jpg; path = ../AwesomeSwift.playground/Resources/photo6.jpg; sourceTree = "<group>"; };
+		1FEFF0C61E78EA2D0064A24B /* photo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo7.jpg; path = ../AwesomeSwift.playground/Resources/photo7.jpg; sourceTree = "<group>"; };
+		1FEFF0C71E78EA2D0064A24B /* photo8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo8.jpg; path = ../AwesomeSwift.playground/Resources/photo8.jpg; sourceTree = "<group>"; };
 		1FF65C971E76B17E006783B1 /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleController.swift; path = ../AwesomeSwift.playground/Sources/Calendar/CalendarKit/ExampleController.swift; sourceTree = "<group>"; };
 		1FF65C981E76B17E006783B1 /* StyleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StyleGenerator.swift; path = ../AwesomeSwift.playground/Sources/Calendar/CalendarKit/StyleGenerator.swift; sourceTree = "<group>"; };
 		1FF65C9B1E76B18A006783B1 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = ../AwesomeSwift.playground/Sources/Calendar/CalendarView/CalendarViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +210,29 @@
 			name = AwesomeSwift;
 			sourceTree = "<group>";
 		};
+		1FEFF0AF1E78EA0B0064A24B /* CardTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1FEFF0C01E78EA2D0064A24B /* photo1.jpg */,
+				1FEFF0C11E78EA2D0064A24B /* photo2.jpg */,
+				1FEFF0C21E78EA2D0064A24B /* photo3.jpg */,
+				1FEFF0C31E78EA2D0064A24B /* photo4.jpg */,
+				1FEFF0C41E78EA2D0064A24B /* photo5.jpg */,
+				1FEFF0C51E78EA2D0064A24B /* photo6.jpg */,
+				1FEFF0C61E78EA2D0064A24B /* photo7.jpg */,
+				1FEFF0C71E78EA2D0064A24B /* photo8.jpg */,
+				1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */,
+				1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */,
+				1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */,
+				1FEFF0B31E78EA160064A24B /* CardTableView.swift */,
+				1FEFF0B41E78EA160064A24B /* CardTableViewCell.swift */,
+				1FEFF0B51E78EA160064A24B /* CardTableViewController.swift */,
+				1FEFF0B61E78EA160064A24B /* PostsViewController.swift */,
+				1FEFF0B71E78EA160064A24B /* SampleData.swift */,
+			);
+			name = CardTableView;
+			sourceTree = "<group>";
+		};
 		37AAF2E64021B15F2A89B857 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +257,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1FEFF0AF1E78EA0B0064A24B /* CardTableView */,
 				BC1B100B1E784D4900A9EA20 /* BottomNavigationController */,
 				BC1B10051E784D3F00A9EA20 /* BarViewController.swift */,
 				1F11BCD31E78D0040050AA2E /* CardViewController.swift */,
@@ -455,6 +511,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEFF0CE1E78EA2D0064A24B /* photo7.jpg in Resources */,
+				1FEFF0CD1E78EA2D0064A24B /* photo6.jpg in Resources */,
+				1FEFF0CF1E78EA2D0064A24B /* photo8.jpg in Resources */,
+				1FEFF0CC1E78EA2D0064A24B /* photo5.jpg in Resources */,
+				1FEFF0CB1E78EA2D0064A24B /* photo4.jpg in Resources */,
+				1FEFF0CA1E78EA2D0064A24B /* photo3.jpg in Resources */,
+				1FEFF0C91E78EA2D0064A24B /* photo2.jpg in Resources */,
+				1FEFF0C81E78EA2D0064A24B /* photo1.jpg in Resources */,
 				BC9AE17B1E7043F300D3199C /* LaunchScreen.storyboard in Resources */,
 				BC9AE1781E7043F300D3199C /* Assets.xcassets in Resources */,
 				BC9AE1731E7043F300D3199C /* Main.storyboard in Resources */,
@@ -622,10 +686,13 @@
 			files = (
 				BC1B10131E784D5100A9EA20 /* AppBottomNavigationController.swift in Sources */,
 				1FF65C9C1E76B18A006783B1 /* CalendarViewController.swift in Sources */,
+				1FEFF0BE1E78EA160064A24B /* PostsViewController.swift in Sources */,
 				BC1B10161E784D5100A9EA20 /* PhotoViewController.swift in Sources */,
 				1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */,
 				1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
 				1F11BCD41E78D0040050AA2E /* CardViewController.swift in Sources */,
+				1FEFF0BB1E78EA160064A24B /* CardTableView.swift in Sources */,
+				1FEFF0BF1E78EA160064A24B /* SampleData.swift in Sources */,
 				1F16442F1E76822B009D70A0 /* Helper.swift in Sources */,
 				BC1B10141E784D5100A9EA20 /* AudioViewController.swift in Sources */,
 				BC1B100A1E784D3F00A9EA20 /* MaterialViewController.swift in Sources */,
@@ -634,16 +701,21 @@
 				1FF65CA11E76B197006783B1 /* MyButton.swift in Sources */,
 				BC50A89E1E735BEC00665614 /* LandingViewController.swift in Sources */,
 				BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */,
+				1FEFF0BC1E78EA160064A24B /* CardTableViewCell.swift in Sources */,
 				1FF65CA01E76B197006783B1 /* KoyomiViewController.swift in Sources */,
+				1FEFF0BD1E78EA160064A24B /* CardTableViewController.swift in Sources */,
 				BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */,
+				1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */,
 				BC1B10181E784D5100A9EA20 /* SearchViewController.swift in Sources */,
 				BC1B10091E784D3F00A9EA20 /* ButtonViewController.swift in Sources */,
+				1FEFF0BA1E78EA160064A24B /* AppToolbarController.swift in Sources */,
 				1FF65C9A1E76B17E006783B1 /* StyleGenerator.swift in Sources */,
 				BC1B10191E784D5100A9EA20 /* VideoViewController.swift in Sources */,
 				1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */,
 				1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */,
 				1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */,
 				BC9AE1761E7043F300D3199C /* AwesomeSwift.xcdatamodeld in Sources */,
+				1FEFF0B91E78EA160064A24B /* AppPageTabBarController.swift in Sources */,
 				1FF65C991E76B17E006783B1 /* ExampleController.swift in Sources */,
 				BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */,
 				BC1B10151E784D5100A9EA20 /* BottomNavigationViewController.swift in Sources */,
