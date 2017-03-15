@@ -17,7 +17,7 @@ public class LandingViewController: UIViewController {
             "Material":MaterialViewController.self
         ],
         "Animation":[
-            "AnimatedCollectionViewLayout":AnimatedCollectionViewLayoutViewController.self
+            "Animated Collection View Layout":AnimatedCollectionViewLayoutViewController.self
         ],
         "Calendar":[
             "CalendarKit":ExampleController.self,
