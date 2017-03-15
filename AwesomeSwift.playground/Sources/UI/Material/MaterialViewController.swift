@@ -20,7 +20,7 @@ public class MaterialViewController:UIViewController {
         addChildViewController(collectionController)
         view.addSubview(collectionController.view)
         collectionController.didMove(toParentViewController: self)
-        
+          
         collectionController.view.translatesAutoresizingMaskIntoConstraints = false
         collectionController.view.topAnchor.constraint(equalTo: topLayoutGuide.bottomAnchor).isActive = true
         collectionController.view.bottomAnchor.constraint(equalTo: bottomLayoutGuide.topAnchor).isActive = true
@@ -45,7 +45,8 @@ public class MaterialViewController:UIViewController {
             createButton("Photo Library"):PLViewController.self,
             createButton("Presenter Card"):PresenterCardViewController.self,
             createButton("Search"):SearchVC.self,
-            createButton("Snack Bar"):SBViewController.self
+            createButton("Snack Bar"):SBViewController.self,
+            createButton("TextField"):TextFieldViewController.self
         ]
         for item in menuButton {
             item.key.addTarget(self, action: #selector(handleMenuButton(_:)), for: .touchUpInside)
