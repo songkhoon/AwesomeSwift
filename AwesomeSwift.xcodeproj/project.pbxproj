@@ -12,6 +12,11 @@
 		1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */; };
 		1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */; };
 		1F16442F1E76822B009D70A0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442E1E76822B009D70A0 /* Helper.swift */; };
+		1F459B0C1E790A4E00788B03 /* meditation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F459B091E790A4E00788B03 /* meditation.jpg */; };
+		1F459B0D1E790A4E00788B03 /* surf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F459B0A1E790A4E00788B03 /* surf.jpg */; };
+		1F459B0E1E790A4E00788B03 /* yoga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F459B0B1E790A4E00788B03 /* yoga.jpg */; };
+		1F459B121E790A6900788B03 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F459B101E790A6900788B03 /* CardCollectionViewCell.swift */; };
+		1F459B131E790A6900788B03 /* MaterialCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F459B111E790A6900788B03 /* MaterialCollectionViewController.swift */; };
 		1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */; };
 		1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */; };
 		1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */; };
@@ -82,6 +87,11 @@
 		1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Landing/MenuCollectionViewController.swift; sourceTree = "<group>"; };
 		1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmenuViewController.swift; path = ../AwesomeSwift.playground/Sources/Landing/SubmenuViewController.swift; sourceTree = "<group>"; };
 		1F16442E1E76822B009D70A0 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../AwesomeSwift.playground/Sources/Helper.swift; sourceTree = "<group>"; };
+		1F459B091E790A4E00788B03 /* meditation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditation.jpg; path = AwesomeSwift.playground/Resources/meditation.jpg; sourceTree = SOURCE_ROOT; };
+		1F459B0A1E790A4E00788B03 /* surf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = surf.jpg; path = AwesomeSwift.playground/Resources/surf.jpg; sourceTree = SOURCE_ROOT; };
+		1F459B0B1E790A4E00788B03 /* yoga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yoga.jpg; path = AwesomeSwift.playground/Resources/yoga.jpg; sourceTree = SOURCE_ROOT; };
+		1F459B101E790A6900788B03 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardCollectionViewCell.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CollectionViewController/CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F459B111E790A6900788B03 /* MaterialCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CollectionViewController/MaterialCollectionViewController.swift; sourceTree = "<group>"; };
 		1F8587FE1E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedCollectionViewLayoutViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/AnimatedCollectionViewLayoutViewController.swift; sourceTree = "<group>"; };
 		1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/ImageCollectionViewController.swift; sourceTree = "<group>"; };
 		1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFABMenuController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppFABMenuController.swift; sourceTree = "<group>"; };
@@ -182,6 +192,18 @@
 			name = Calendar;
 			sourceTree = "<group>";
 		};
+		1F459B0F1E790A5700788B03 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1F459B101E790A6900788B03 /* CardCollectionViewCell.swift */,
+				1F459B111E790A6900788B03 /* MaterialCollectionViewController.swift */,
+				1F459B091E790A4E00788B03 /* meditation.jpg */,
+				1F459B0A1E790A4E00788B03 /* surf.jpg */,
+				1F459B0B1E790A4E00788B03 /* yoga.jpg */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
 		1F81FAB61E76B833004B1160 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +279,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1F459B0F1E790A5700788B03 /* CollectionView */,
 				1FEFF0AF1E78EA0B0064A24B /* CardTableView */,
 				BC1B100B1E784D4900A9EA20 /* BottomNavigationController */,
 				BC1B10051E784D3F00A9EA20 /* BarViewController.swift */,
@@ -512,14 +535,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEFF0CE1E78EA2D0064A24B /* photo7.jpg in Resources */,
+				1F459B0E1E790A4E00788B03 /* yoga.jpg in Resources */,
 				1FEFF0CD1E78EA2D0064A24B /* photo6.jpg in Resources */,
 				1FEFF0CF1E78EA2D0064A24B /* photo8.jpg in Resources */,
+				1F459B0C1E790A4E00788B03 /* meditation.jpg in Resources */,
 				1FEFF0CC1E78EA2D0064A24B /* photo5.jpg in Resources */,
 				1FEFF0CB1E78EA2D0064A24B /* photo4.jpg in Resources */,
 				1FEFF0CA1E78EA2D0064A24B /* photo3.jpg in Resources */,
 				1FEFF0C91E78EA2D0064A24B /* photo2.jpg in Resources */,
 				1FEFF0C81E78EA2D0064A24B /* photo1.jpg in Resources */,
 				BC9AE17B1E7043F300D3199C /* LaunchScreen.storyboard in Resources */,
+				1F459B0D1E790A4E00788B03 /* surf.jpg in Resources */,
 				BC9AE1781E7043F300D3199C /* Assets.xcassets in Resources */,
 				BC9AE1731E7043F300D3199C /* Main.storyboard in Resources */,
 			);
@@ -700,6 +726,7 @@
 				BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */,
 				1FF65CA11E76B197006783B1 /* MyButton.swift in Sources */,
 				BC50A89E1E735BEC00665614 /* LandingViewController.swift in Sources */,
+				1F459B121E790A6900788B03 /* CardCollectionViewCell.swift in Sources */,
 				BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */,
 				1FEFF0BC1E78EA160064A24B /* CardTableViewCell.swift in Sources */,
 				1FF65CA01E76B197006783B1 /* KoyomiViewController.swift in Sources */,
@@ -713,6 +740,7 @@
 				BC1B10191E784D5100A9EA20 /* VideoViewController.swift in Sources */,
 				1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */,
 				1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */,
+				1F459B131E790A6900788B03 /* MaterialCollectionViewController.swift in Sources */,
 				1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */,
 				BC9AE1761E7043F300D3199C /* AwesomeSwift.xcdatamodeld in Sources */,
 				1FEFF0B91E78EA160064A24B /* AppPageTabBarController.swift in Sources */,
