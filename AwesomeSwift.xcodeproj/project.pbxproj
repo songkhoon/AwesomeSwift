@@ -42,6 +42,23 @@
 		1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */; };
 		1FD704211E794A920022854F /* PresenterCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD704201E794A920022854F /* PresenterCardViewController.swift */; };
 		1FD704231E794A9B0022854F /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD704221E794A9B0022854F /* pattern.png */; };
+		1FD704301E794CB60022854F /* ashton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD704241E794CB60022854F /* ashton.png */; };
+		1FD704311E794CB60022854F /* charles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD704251E794CB60022854F /* charles.jpg */; };
+		1FD704321E794CB60022854F /* daniel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD704261E794CB60022854F /* daniel.jpg */; };
+		1FD704331E794CB60022854F /* deepali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD704271E794CB60022854F /* deepali.jpg */; };
+		1FD704341E794CB60022854F /* eve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD704281E794CB60022854F /* eve.jpg */; };
+		1FD704351E794CB60022854F /* jonathan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD704291E794CB60022854F /* jonathan.jpg */; };
+		1FD704361E794CB60022854F /* karen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7042A1E794CB60022854F /* karen.jpg */; };
+		1FD704371E794CB60022854F /* kelly.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7042B1E794CB60022854F /* kelly.jpeg */; };
+		1FD704381E794CB60022854F /* kendall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7042C1E794CB60022854F /* kendall.jpg */; };
+		1FD704391E794CB60022854F /* laura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7042D1E794CB60022854F /* laura.jpg */; };
+		1FD7043A1E794CB60022854F /* michael.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7042E1E794CB60022854F /* michael.jpg */; };
+		1FD7043B1E794CB60022854F /* thomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FD7042F1E794CB60022854F /* thomas.jpg */; };
+		1FD704421E794CEA0022854F /* AppSearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7043D1E794CEA0022854F /* AppSearchBarController.swift */; };
+		1FD704431E794CEA0022854F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD7043E1E794CEA0022854F /* RootViewController.swift */; };
+		1FD704461E794CEA0022854F /* UserTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD704411E794CEA0022854F /* UserTableView.swift */; };
+		1FD704481E794D490022854F /* SearchSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD704471E794D490022854F /* SearchSampleData.swift */; };
+		1FD7044A1E794D590022854F /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD704491E794D590022854F /* SearchVC.swift */; };
 		1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */; };
 		1FEFF0B91E78EA160064A24B /* AppPageTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */; };
 		1FEFF0BA1E78EA160064A24B /* AppToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */; };
@@ -156,6 +173,23 @@
 		1F8587FF1E76BE9B00B9EA26 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Animation/AnimatedCollectionViewLayout/ImageCollectionViewController.swift; sourceTree = "<group>"; };
 		1FD704201E794A920022854F /* PresenterCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresenterCardViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/PresenterCard/PresenterCardViewController.swift; sourceTree = "<group>"; };
 		1FD704221E794A9B0022854F /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pattern.png; path = ../AwesomeSwift.playground/Resources/pattern.png; sourceTree = "<group>"; };
+		1FD704241E794CB60022854F /* ashton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ashton.png; path = AwesomeSwift.playground/Resources/ashton.png; sourceTree = SOURCE_ROOT; };
+		1FD704251E794CB60022854F /* charles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = charles.jpg; path = AwesomeSwift.playground/Resources/charles.jpg; sourceTree = SOURCE_ROOT; };
+		1FD704261E794CB60022854F /* daniel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = daniel.jpg; path = AwesomeSwift.playground/Resources/daniel.jpg; sourceTree = SOURCE_ROOT; };
+		1FD704271E794CB60022854F /* deepali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = deepali.jpg; path = AwesomeSwift.playground/Resources/deepali.jpg; sourceTree = SOURCE_ROOT; };
+		1FD704281E794CB60022854F /* eve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eve.jpg; path = AwesomeSwift.playground/Resources/eve.jpg; sourceTree = SOURCE_ROOT; };
+		1FD704291E794CB60022854F /* jonathan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jonathan.jpg; path = AwesomeSwift.playground/Resources/jonathan.jpg; sourceTree = SOURCE_ROOT; };
+		1FD7042A1E794CB60022854F /* karen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = karen.jpg; path = AwesomeSwift.playground/Resources/karen.jpg; sourceTree = SOURCE_ROOT; };
+		1FD7042B1E794CB60022854F /* kelly.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kelly.jpeg; path = AwesomeSwift.playground/Resources/kelly.jpeg; sourceTree = SOURCE_ROOT; };
+		1FD7042C1E794CB60022854F /* kendall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kendall.jpg; path = AwesomeSwift.playground/Resources/kendall.jpg; sourceTree = SOURCE_ROOT; };
+		1FD7042D1E794CB60022854F /* laura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = laura.jpg; path = AwesomeSwift.playground/Resources/laura.jpg; sourceTree = SOURCE_ROOT; };
+		1FD7042E1E794CB60022854F /* michael.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = michael.jpg; path = AwesomeSwift.playground/Resources/michael.jpg; sourceTree = SOURCE_ROOT; };
+		1FD7042F1E794CB60022854F /* thomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = thomas.jpg; path = AwesomeSwift.playground/Resources/thomas.jpg; sourceTree = SOURCE_ROOT; };
+		1FD7043D1E794CEA0022854F /* AppSearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSearchBarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Search/AppSearchBarController.swift; sourceTree = "<group>"; };
+		1FD7043E1E794CEA0022854F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Search/RootViewController.swift; sourceTree = "<group>"; };
+		1FD704411E794CEA0022854F /* UserTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserTableView.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Search/UserTableView.swift; sourceTree = "<group>"; };
+		1FD704471E794D490022854F /* SearchSampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchSampleData.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Search/SearchSampleData.swift; sourceTree = "<group>"; };
+		1FD704491E794D590022854F /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchVC.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Search/SearchVC.swift; sourceTree = "<group>"; };
 		1FEFF0B01E78EA160064A24B /* AppFABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppFABMenuController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppFABMenuController.swift; sourceTree = "<group>"; };
 		1FEFF0B11E78EA160064A24B /* AppPageTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppPageTabBarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppPageTabBarController.swift; sourceTree = "<group>"; };
 		1FEFF0B21E78EA160064A24B /* AppToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppToolbarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/CardTableView/AppToolbarController.swift; sourceTree = "<group>"; };
@@ -357,6 +391,30 @@
 			name = PresenterCard;
 			sourceTree = "<group>";
 		};
+		1FD7043C1E794CBF0022854F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1FD704491E794D590022854F /* SearchVC.swift */,
+				1FD704471E794D490022854F /* SearchSampleData.swift */,
+				1FD7043D1E794CEA0022854F /* AppSearchBarController.swift */,
+				1FD7043E1E794CEA0022854F /* RootViewController.swift */,
+				1FD704411E794CEA0022854F /* UserTableView.swift */,
+				1FD704241E794CB60022854F /* ashton.png */,
+				1FD704251E794CB60022854F /* charles.jpg */,
+				1FD704261E794CB60022854F /* daniel.jpg */,
+				1FD704271E794CB60022854F /* deepali.jpg */,
+				1FD704281E794CB60022854F /* eve.jpg */,
+				1FD704291E794CB60022854F /* jonathan.jpg */,
+				1FD7042A1E794CB60022854F /* karen.jpg */,
+				1FD7042B1E794CB60022854F /* kelly.jpeg */,
+				1FD7042C1E794CB60022854F /* kendall.jpg */,
+				1FD7042D1E794CB60022854F /* laura.jpg */,
+				1FD7042E1E794CB60022854F /* michael.jpg */,
+				1FD7042F1E794CB60022854F /* thomas.jpg */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 		1FE6D9ED1E724448008094B9 /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,6 +524,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1FD7043C1E794CBF0022854F /* Search */,
 				1FD7041F1E794A880022854F /* PresenterCard */,
 				1F05D16A1E793BCE00200BB4 /* PhotoLibraryController */,
 				1F5950F51E792B7D00F565FE /* PhotoCollection */,
@@ -732,21 +791,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEFF0CE1E78EA2D0064A24B /* photo7.jpg in Resources */,
+				1FD704361E794CB60022854F /* karen.jpg in Resources */,
 				1F459B0E1E790A4E00788B03 /* yoga.jpg in Resources */,
 				1FEFF0CD1E78EA2D0064A24B /* photo6.jpg in Resources */,
+				1FD704331E794CB60022854F /* deepali.jpg in Resources */,
 				1FEFF0CF1E78EA2D0064A24B /* photo8.jpg in Resources */,
 				1F459B0C1E790A4E00788B03 /* meditation.jpg in Resources */,
 				1FEFF0CC1E78EA2D0064A24B /* photo5.jpg in Resources */,
 				1FD704231E794A9B0022854F /* pattern.png in Resources */,
+				1FD7043A1E794CB60022854F /* michael.jpg in Resources */,
 				1FEFF0CB1E78EA2D0064A24B /* photo4.jpg in Resources */,
+				1FD704311E794CB60022854F /* charles.jpg in Resources */,
+				1FD704391E794CB60022854F /* laura.jpg in Resources */,
+				1FD704371E794CB60022854F /* kelly.jpeg in Resources */,
+				1FD704351E794CB60022854F /* jonathan.jpg in Resources */,
 				1FFB453D1E791E2D008F1946 /* CosmicMind.png in Resources */,
 				1FEFF0CA1E78EA2D0064A24B /* photo3.jpg in Resources */,
+				1FD704381E794CB60022854F /* kendall.jpg in Resources */,
 				1FEFF0C91E78EA2D0064A24B /* photo2.jpg in Resources */,
+				1FD7043B1E794CB60022854F /* thomas.jpg in Resources */,
 				1FEFF0C81E78EA2D0064A24B /* photo1.jpg in Resources */,
 				BC9AE17B1E7043F300D3199C /* LaunchScreen.storyboard in Resources */,
 				1FFB45381E791D53008F1946 /* frontier.jpg in Resources */,
+				1FD704341E794CB60022854F /* eve.jpg in Resources */,
 				1F459B0D1E790A4E00788B03 /* surf.jpg in Resources */,
 				BC9AE1781E7043F300D3199C /* Assets.xcassets in Resources */,
+				1FD704301E794CB60022854F /* ashton.png in Resources */,
+				1FD704321E794CB60022854F /* daniel.jpg in Resources */,
 				BC9AE1731E7043F300D3199C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -946,6 +1017,7 @@
 				BC1B100A1E784D3F00A9EA20 /* MaterialViewController.swift in Sources */,
 				BC1B10171E784D5100A9EA20 /* RemindersViewController.swift in Sources */,
 				BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */,
+				1FD7044A1E794D590022854F /* SearchVC.swift in Sources */,
 				1FF65CA11E76B197006783B1 /* MyButton.swift in Sources */,
 				BC50A89E1E735BEC00665614 /* LandingViewController.swift in Sources */,
 				1F459B121E790A6900788B03 /* CardCollectionViewCell.swift in Sources */,
@@ -956,6 +1028,7 @@
 				1FFB45361E791D4F008F1946 /* ImageCardViewController.swift in Sources */,
 				BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */,
 				1FFB45461E792006008F1946 /* TransitionViewController.swift in Sources */,
+				1FD704481E794D490022854F /* SearchSampleData.swift in Sources */,
 				1FEFF0BC1E78EA160064A24B /* CardTableViewCell.swift in Sources */,
 				1FF65CA01E76B197006783B1 /* KoyomiViewController.swift in Sources */,
 				1FEFF0BD1E78EA160064A24B /* CardTableViewController.swift in Sources */,
@@ -965,6 +1038,7 @@
 				1F067A741E79263100E7D917 /* PageTabBarViewController.swift in Sources */,
 				1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */,
 				BC1B10181E784D5100A9EA20 /* SearchViewController.swift in Sources */,
+				1FD704421E794CEA0022854F /* AppSearchBarController.swift in Sources */,
 				1F2FFD371E79156300503E77 /* FABRemindersViewController.swift in Sources */,
 				BC1B10091E784D3F00A9EA20 /* ButtonViewController.swift in Sources */,
 				1F2FFD331E7912B500503E77 /* FABRootViewController.swift in Sources */,
@@ -974,10 +1048,12 @@
 				BC1B10191E784D5100A9EA20 /* VideoViewController.swift in Sources */,
 				1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */,
 				1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */,
+				1FD704431E794CEA0022854F /* RootViewController.swift in Sources */,
 				1F459B131E790A6900788B03 /* MaterialCollectionViewController.swift in Sources */,
 				1F8588011E76BE9B00B9EA26 /* ImageCollectionViewController.swift in Sources */,
 				BC9AE1761E7043F300D3199C /* AwesomeSwift.xcdatamodeld in Sources */,
 				1FEFF0B91E78EA160064A24B /* AppPageTabBarController.swift in Sources */,
+				1FD704461E794CEA0022854F /* UserTableView.swift in Sources */,
 				1FF65C991E76B17E006783B1 /* ExampleController.swift in Sources */,
 				BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */,
 				BC1B10151E784D5100A9EA20 /* BottomNavigationViewController.swift in Sources */,
