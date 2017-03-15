@@ -12,6 +12,11 @@
 		1F16442B1E7674F7009D70A0 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */; };
 		1F16442D1E7677E3009D70A0 /* SubmenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */; };
 		1F16442F1E76822B009D70A0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F16442E1E76822B009D70A0 /* Helper.swift */; };
+		1F2FFD321E7912B500503E77 /* FABMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FFD2D1E7912B500503E77 /* FABMenuViewController.swift */; };
+		1F2FFD331E7912B500503E77 /* FABRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FFD2E1E7912B500503E77 /* FABRootViewController.swift */; };
+		1F2FFD341E7912B500503E77 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FFD2F1E7912B500503E77 /* NotesViewController.swift */; };
+		1F2FFD371E79156300503E77 /* FABRemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FFD361E79156300503E77 /* FABRemindersViewController.swift */; };
+		1F2FFD391E79164E00503E77 /* FABAppMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FFD381E79164E00503E77 /* FABAppMenuController.swift */; };
 		1F459B0C1E790A4E00788B03 /* meditation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F459B091E790A4E00788B03 /* meditation.jpg */; };
 		1F459B0D1E790A4E00788B03 /* surf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F459B0A1E790A4E00788B03 /* surf.jpg */; };
 		1F459B0E1E790A4E00788B03 /* yoga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F459B0B1E790A4E00788B03 /* yoga.jpg */; };
@@ -87,6 +92,11 @@
 		1F16442A1E7674F7009D70A0 /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuCollectionViewController.swift; path = ../AwesomeSwift.playground/Sources/Landing/MenuCollectionViewController.swift; sourceTree = "<group>"; };
 		1F16442C1E7677E3009D70A0 /* SubmenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmenuViewController.swift; path = ../AwesomeSwift.playground/Sources/Landing/SubmenuViewController.swift; sourceTree = "<group>"; };
 		1F16442E1E76822B009D70A0 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../AwesomeSwift.playground/Sources/Helper.swift; sourceTree = "<group>"; };
+		1F2FFD2D1E7912B500503E77 /* FABMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FABMenuViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/FABMenuController/FABMenuViewController.swift; sourceTree = "<group>"; };
+		1F2FFD2E1E7912B500503E77 /* FABRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FABRootViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/FABMenuController/FABRootViewController.swift; sourceTree = "<group>"; };
+		1F2FFD2F1E7912B500503E77 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotesViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/FABMenuController/NotesViewController.swift; sourceTree = "<group>"; };
+		1F2FFD361E79156300503E77 /* FABRemindersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FABRemindersViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/FABMenuController/FABRemindersViewController.swift; sourceTree = "<group>"; };
+		1F2FFD381E79164E00503E77 /* FABAppMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FABAppMenuController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/FABMenuController/FABAppMenuController.swift; sourceTree = "<group>"; };
 		1F459B091E790A4E00788B03 /* meditation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meditation.jpg; path = AwesomeSwift.playground/Resources/meditation.jpg; sourceTree = SOURCE_ROOT; };
 		1F459B0A1E790A4E00788B03 /* surf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = surf.jpg; path = AwesomeSwift.playground/Resources/surf.jpg; sourceTree = SOURCE_ROOT; };
 		1F459B0B1E790A4E00788B03 /* yoga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yoga.jpg; path = AwesomeSwift.playground/Resources/yoga.jpg; sourceTree = SOURCE_ROOT; };
@@ -192,6 +202,18 @@
 			name = Calendar;
 			sourceTree = "<group>";
 		};
+		1F2FFD2B1E7912AA00503E77 /* FABMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				1F2FFD381E79164E00503E77 /* FABAppMenuController.swift */,
+				1F2FFD2D1E7912B500503E77 /* FABMenuViewController.swift */,
+				1F2FFD2E1E7912B500503E77 /* FABRootViewController.swift */,
+				1F2FFD2F1E7912B500503E77 /* NotesViewController.swift */,
+				1F2FFD361E79156300503E77 /* FABRemindersViewController.swift */,
+			);
+			name = FABMenuController;
+			sourceTree = "<group>";
+		};
 		1F459B0F1E790A5700788B03 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +301,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1F2FFD2B1E7912AA00503E77 /* FABMenuController */,
 				1F459B0F1E790A5700788B03 /* CollectionView */,
 				1FEFF0AF1E78EA0B0064A24B /* CardTableView */,
 				BC1B100B1E784D4900A9EA20 /* BottomNavigationController */,
@@ -714,11 +737,14 @@
 				1FF65C9C1E76B18A006783B1 /* CalendarViewController.swift in Sources */,
 				1FEFF0BE1E78EA160064A24B /* PostsViewController.swift in Sources */,
 				BC1B10161E784D5100A9EA20 /* PhotoViewController.swift in Sources */,
+				1F2FFD391E79164E00503E77 /* FABAppMenuController.swift in Sources */,
 				1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */,
 				1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
 				1F11BCD41E78D0040050AA2E /* CardViewController.swift in Sources */,
 				1FEFF0BB1E78EA160064A24B /* CardTableView.swift in Sources */,
 				1FEFF0BF1E78EA160064A24B /* SampleData.swift in Sources */,
+				1F2FFD321E7912B500503E77 /* FABMenuViewController.swift in Sources */,
+				1F2FFD341E7912B500503E77 /* NotesViewController.swift in Sources */,
 				1F16442F1E76822B009D70A0 /* Helper.swift in Sources */,
 				BC1B10141E784D5100A9EA20 /* AudioViewController.swift in Sources */,
 				BC1B100A1E784D3F00A9EA20 /* MaterialViewController.swift in Sources */,
@@ -734,7 +760,9 @@
 				BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */,
 				1FEFF0B81E78EA160064A24B /* AppFABMenuController.swift in Sources */,
 				BC1B10181E784D5100A9EA20 /* SearchViewController.swift in Sources */,
+				1F2FFD371E79156300503E77 /* FABRemindersViewController.swift in Sources */,
 				BC1B10091E784D3F00A9EA20 /* ButtonViewController.swift in Sources */,
+				1F2FFD331E7912B500503E77 /* FABRootViewController.swift in Sources */,
 				1FEFF0BA1E78EA160064A24B /* AppToolbarController.swift in Sources */,
 				1FF65C9A1E76B17E006783B1 /* StyleGenerator.swift in Sources */,
 				BC1B10191E784D5100A9EA20 /* VideoViewController.swift in Sources */,
