@@ -40,7 +40,8 @@ public class MaterialViewController:UIViewController {
             createButton("Layer"):LayerViewController.self,
             createButton("Navigation Controller"):MaterialNavigationController.self,
             createButton("Navigation Drawer"):NavigationDrawerViewController.self,
-            createButton("Page Tab Bar"):PageTabBarViewController.self
+            createButton("Page Tab Bar"):PageTabBarViewController.self,
+            createButton("Photo Collection"):PCViewController.self
         ]
         for item in menuButton {
             item.key.addTarget(self, action: #selector(handleMenuButton(_:)), for: .touchUpInside)
