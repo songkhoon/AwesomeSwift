@@ -46,6 +46,7 @@
 		1FF65CA01E76B197006783B1 /* KoyomiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C9D1E76B197006783B1 /* KoyomiViewController.swift */; };
 		1FF65CA11E76B197006783B1 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C9E1E76B197006783B1 /* MyButton.swift */; };
 		1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF65C9F1E76B197006783B1 /* UIColorExtension.swift */; };
+		1FFB45331E791B34008F1946 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45321E791B34008F1946 /* GridViewController.swift */; };
 		454580E5D62A31136110F292 /* Pods_AwesomeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9136A79302FEDE426994EDE7 /* Pods_AwesomeSwiftTests.framework */; };
 		61DEFEB4B3FC93494B2F3995 /* Pods_AwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */; };
 		BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10051E784D3F00A9EA20 /* BarViewController.swift */; };
@@ -126,6 +127,7 @@
 		1FF65C9D1E76B197006783B1 /* KoyomiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KoyomiViewController.swift; path = ../AwesomeSwift.playground/Sources/Calendar/Koyomi/KoyomiViewController.swift; sourceTree = "<group>"; };
 		1FF65C9E1E76B197006783B1 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyButton.swift; path = ../AwesomeSwift.playground/Sources/Calendar/Koyomi/MyButton.swift; sourceTree = "<group>"; };
 		1FF65C9F1E76B197006783B1 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../AwesomeSwift.playground/Sources/Calendar/Koyomi/UIColorExtension.swift; sourceTree = "<group>"; };
+		1FFB45321E791B34008F1946 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Grid/GridViewController.swift; sourceTree = "<group>"; };
 		31AD3AC2F8556FFAF26F719B /* Pods-AwesomeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftTests/Pods-AwesomeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6153BFD7AB873188A63FEA31 /* Pods-AwesomeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftUITests/Pods-AwesomeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -277,6 +279,14 @@
 			name = CardTableView;
 			sourceTree = "<group>";
 		};
+		1FFB45311E791B2E008F1946 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB45321E791B34008F1946 /* GridViewController.swift */,
+			);
+			name = Grid;
+			sourceTree = "<group>";
+		};
 		37AAF2E64021B15F2A89B857 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +311,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1FFB45311E791B2E008F1946 /* Grid */,
 				1F2FFD2B1E7912AA00503E77 /* FABMenuController */,
 				1F459B0F1E790A5700788B03 /* CollectionView */,
 				1FEFF0AF1E78EA0B0064A24B /* CardTableView */,
@@ -775,6 +786,7 @@
 				1FF65C991E76B17E006783B1 /* ExampleController.swift in Sources */,
 				BC50A89D1E735BEC00665614 /* LandingCell.swift in Sources */,
 				BC1B10151E784D5100A9EA20 /* BottomNavigationViewController.swift in Sources */,
+				1FFB45331E791B34008F1946 /* GridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
