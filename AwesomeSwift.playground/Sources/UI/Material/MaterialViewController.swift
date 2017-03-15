@@ -38,7 +38,8 @@ public class MaterialViewController:UIViewController {
             createButton("Grid"):GridViewController.self,
             createButton("Image Card"):ImageCardViewController.self,
             createButton("Layer"):LayerViewController.self,
-            createButton("Navigation Controller"):MaterialNavigationController.self
+            createButton("Navigation Controller"):MaterialNavigationController.self,
+            createButton("Navigation Drawer"):NavigationDrawerViewController.self
         ]
         for item in menuButton {
             item.key.addTarget(self, action: #selector(handleMenuButton(_:)), for: .touchUpInside)

@@ -55,6 +55,13 @@
 		1FFB45441E792006008F1946 /* MaterialNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45401E792006008F1946 /* MaterialNavigationController.swift */; };
 		1FFB45451E792006008F1946 /* NavigationRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45411E792006008F1946 /* NavigationRootViewController.swift */; };
 		1FFB45461E792006008F1946 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45421E792006008F1946 /* TransitionViewController.swift */; };
+		1FFB454F1E79238F008F1946 /* NavigationDrawerAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45481E79238F008F1946 /* NavigationDrawerAppController.swift */; };
+		1FFB45501E79238F008F1946 /* NavigationDrawerAppToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45491E79238F008F1946 /* NavigationDrawerAppToolbarController.swift */; };
+		1FFB45511E79238F008F1946 /* NavigationDrawerLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB454A1E79238F008F1946 /* NavigationDrawerLeftViewController.swift */; };
+		1FFB45521E79238F008F1946 /* NavigationDrawerRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB454B1E79238F008F1946 /* NavigationDrawerRightViewController.swift */; };
+		1FFB45531E79238F008F1946 /* NavigationDrawerRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB454C1E79238F008F1946 /* NavigationDrawerRootViewController.swift */; };
+		1FFB45541E79238F008F1946 /* NavigationDrawerTransitionedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB454D1E79238F008F1946 /* NavigationDrawerTransitionedViewController.swift */; };
+		1FFB45551E79238F008F1946 /* NavigationDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB454E1E79238F008F1946 /* NavigationDrawerViewController.swift */; };
 		454580E5D62A31136110F292 /* Pods_AwesomeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9136A79302FEDE426994EDE7 /* Pods_AwesomeSwiftTests.framework */; };
 		61DEFEB4B3FC93494B2F3995 /* Pods_AwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */; };
 		BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10051E784D3F00A9EA20 /* BarViewController.swift */; };
@@ -144,6 +151,13 @@
 		1FFB45401E792006008F1946 /* MaterialNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialNavigationController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationController/MaterialNavigationController.swift; sourceTree = "<group>"; };
 		1FFB45411E792006008F1946 /* NavigationRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationRootViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationController/NavigationRootViewController.swift; sourceTree = "<group>"; };
 		1FFB45421E792006008F1946 /* TransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationController/TransitionViewController.swift; sourceTree = "<group>"; };
+		1FFB45481E79238F008F1946 /* NavigationDrawerAppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDrawerAppController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationDrawerController/NavigationDrawerAppController.swift; sourceTree = "<group>"; };
+		1FFB45491E79238F008F1946 /* NavigationDrawerAppToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDrawerAppToolbarController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationDrawerController/NavigationDrawerAppToolbarController.swift; sourceTree = "<group>"; };
+		1FFB454A1E79238F008F1946 /* NavigationDrawerLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDrawerLeftViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationDrawerController/NavigationDrawerLeftViewController.swift; sourceTree = "<group>"; };
+		1FFB454B1E79238F008F1946 /* NavigationDrawerRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDrawerRightViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationDrawerController/NavigationDrawerRightViewController.swift; sourceTree = "<group>"; };
+		1FFB454C1E79238F008F1946 /* NavigationDrawerRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDrawerRootViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationDrawerController/NavigationDrawerRootViewController.swift; sourceTree = "<group>"; };
+		1FFB454D1E79238F008F1946 /* NavigationDrawerTransitionedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDrawerTransitionedViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationDrawerController/NavigationDrawerTransitionedViewController.swift; sourceTree = "<group>"; };
+		1FFB454E1E79238F008F1946 /* NavigationDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationDrawerViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationDrawerController/NavigationDrawerViewController.swift; sourceTree = "<group>"; };
 		31AD3AC2F8556FFAF26F719B /* Pods-AwesomeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftTests/Pods-AwesomeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6153BFD7AB873188A63FEA31 /* Pods-AwesomeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftUITests/Pods-AwesomeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -332,6 +346,20 @@
 			name = NavigationController;
 			sourceTree = "<group>";
 		};
+		1FFB45471E792387008F1946 /* NavigationDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB45481E79238F008F1946 /* NavigationDrawerAppController.swift */,
+				1FFB45491E79238F008F1946 /* NavigationDrawerAppToolbarController.swift */,
+				1FFB454A1E79238F008F1946 /* NavigationDrawerLeftViewController.swift */,
+				1FFB454B1E79238F008F1946 /* NavigationDrawerRightViewController.swift */,
+				1FFB454C1E79238F008F1946 /* NavigationDrawerRootViewController.swift */,
+				1FFB454D1E79238F008F1946 /* NavigationDrawerTransitionedViewController.swift */,
+				1FFB454E1E79238F008F1946 /* NavigationDrawerViewController.swift */,
+			);
+			name = NavigationDrawerController;
+			sourceTree = "<group>";
+		};
 		37AAF2E64021B15F2A89B857 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +384,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1FFB45471E792387008F1946 /* NavigationDrawerController */,
 				1FFB453E1E791FFD008F1946 /* NavigationController */,
 				1FFB45391E791E22008F1946 /* Layer */,
 				1FFB45341E791D42008F1946 /* ImageCard */,
@@ -794,8 +823,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFB45541E79238F008F1946 /* NavigationDrawerTransitionedViewController.swift in Sources */,
 				BC1B10131E784D5100A9EA20 /* AppBottomNavigationController.swift in Sources */,
+				1FFB45531E79238F008F1946 /* NavigationDrawerRootViewController.swift in Sources */,
 				1FF65C9C1E76B18A006783B1 /* CalendarViewController.swift in Sources */,
+				1FFB454F1E79238F008F1946 /* NavigationDrawerAppController.swift in Sources */,
 				1FEFF0BE1E78EA160064A24B /* PostsViewController.swift in Sources */,
 				BC1B10161E784D5100A9EA20 /* PhotoViewController.swift in Sources */,
 				1F2FFD391E79164E00503E77 /* FABAppMenuController.swift in Sources */,
@@ -803,14 +835,18 @@
 				1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
 				1FFB45431E792006008F1946 /* AppNavigationController.swift in Sources */,
 				1F11BCD41E78D0040050AA2E /* CardViewController.swift in Sources */,
+				1FFB45501E79238F008F1946 /* NavigationDrawerAppToolbarController.swift in Sources */,
 				1FEFF0BB1E78EA160064A24B /* CardTableView.swift in Sources */,
 				1FEFF0BF1E78EA160064A24B /* SampleData.swift in Sources */,
 				1F2FFD321E7912B500503E77 /* FABMenuViewController.swift in Sources */,
+				1FFB45511E79238F008F1946 /* NavigationDrawerLeftViewController.swift in Sources */,
 				1FFB45441E792006008F1946 /* MaterialNavigationController.swift in Sources */,
 				1F2FFD341E7912B500503E77 /* NotesViewController.swift in Sources */,
+				1FFB45551E79238F008F1946 /* NavigationDrawerViewController.swift in Sources */,
 				1F16442F1E76822B009D70A0 /* Helper.swift in Sources */,
 				BC1B10141E784D5100A9EA20 /* AudioViewController.swift in Sources */,
 				1FFB45451E792006008F1946 /* NavigationRootViewController.swift in Sources */,
+				1FFB45521E79238F008F1946 /* NavigationDrawerRightViewController.swift in Sources */,
 				BC1B100A1E784D3F00A9EA20 /* MaterialViewController.swift in Sources */,
 				BC1B10171E784D5100A9EA20 /* RemindersViewController.swift in Sources */,
 				BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */,
