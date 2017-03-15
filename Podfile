@@ -15,6 +15,8 @@ target 'AwesomeSwift' do
   pod 'AnimatedCollectionViewLayout'
 
   pod 'Material', '~> 2.0'
+  pod 'Graph', '~> 2.0'
+  pod 'Motion', '~> 1.0'
 
   target 'AwesomeSwiftTests' do
     inherit! :search_paths
