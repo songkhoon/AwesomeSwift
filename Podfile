@@ -17,6 +17,7 @@ target 'AwesomeSwift' do
   pod 'Material', '~> 2.0'
   pod 'Graph', '~> 2.0'
   pod 'Motion', '~> 1.0'
+  pod 'Material/Photos', '~> 2.0'
 
   target 'AwesomeSwiftTests' do
     inherit! :search_paths

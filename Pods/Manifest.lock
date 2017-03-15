@@ -13,6 +13,8 @@ PODS:
   - Material (2.5.2):
     - Material/Core (= 2.5.2)
   - Material/Core (2.5.2)
+  - Material/Photos (2.5.2):
+    - Material/Core
   - Motion (1.0.5):
     - Motion/Core (= 1.0.5)
   - Motion/Core (1.0.5)
@@ -26,6 +28,7 @@ DEPENDENCIES:
   - Graph (~> 2.0)
   - Koyomi
   - Material (~> 2.0)
+  - Material/Photos (~> 2.0)
   - Motion (~> 1.0)
 
 SPEC CHECKSUMS:
@@ -41,6 +44,6 @@ SPEC CHECKSUMS:
   Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
   SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
 
-PODFILE CHECKSUM: fc4868558a8d4b2b70b3cb80e738c723f4413171
+PODFILE CHECKSUM: 601f6c39df721c55a650d4b161012cc81b14924d
 
 COCOAPODS: 1.2.0
