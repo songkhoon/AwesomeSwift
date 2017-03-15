@@ -51,6 +51,10 @@
 		1FFB45381E791D53008F1946 /* frontier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB45371E791D53008F1946 /* frontier.jpg */; };
 		1FFB453B1E791E29008F1946 /* LayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB453A1E791E29008F1946 /* LayerViewController.swift */; };
 		1FFB453D1E791E2D008F1946 /* CosmicMind.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB453C1E791E2D008F1946 /* CosmicMind.png */; };
+		1FFB45431E792006008F1946 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB453F1E792006008F1946 /* AppNavigationController.swift */; };
+		1FFB45441E792006008F1946 /* MaterialNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45401E792006008F1946 /* MaterialNavigationController.swift */; };
+		1FFB45451E792006008F1946 /* NavigationRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45411E792006008F1946 /* NavigationRootViewController.swift */; };
+		1FFB45461E792006008F1946 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFB45421E792006008F1946 /* TransitionViewController.swift */; };
 		454580E5D62A31136110F292 /* Pods_AwesomeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9136A79302FEDE426994EDE7 /* Pods_AwesomeSwiftTests.framework */; };
 		61DEFEB4B3FC93494B2F3995 /* Pods_AwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */; };
 		BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B10051E784D3F00A9EA20 /* BarViewController.swift */; };
@@ -136,6 +140,10 @@
 		1FFB45371E791D53008F1946 /* frontier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = frontier.jpg; path = ../AwesomeSwift.playground/Resources/frontier.jpg; sourceTree = "<group>"; };
 		1FFB453A1E791E29008F1946 /* LayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayerViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/Layer/LayerViewController.swift; sourceTree = "<group>"; };
 		1FFB453C1E791E2D008F1946 /* CosmicMind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CosmicMind.png; path = ../AwesomeSwift.playground/Resources/CosmicMind.png; sourceTree = "<group>"; };
+		1FFB453F1E792006008F1946 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppNavigationController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationController/AppNavigationController.swift; sourceTree = "<group>"; };
+		1FFB45401E792006008F1946 /* MaterialNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialNavigationController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationController/MaterialNavigationController.swift; sourceTree = "<group>"; };
+		1FFB45411E792006008F1946 /* NavigationRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationRootViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationController/NavigationRootViewController.swift; sourceTree = "<group>"; };
+		1FFB45421E792006008F1946 /* TransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionViewController.swift; path = ../AwesomeSwift.playground/Sources/UI/Material/NavigationController/TransitionViewController.swift; sourceTree = "<group>"; };
 		31AD3AC2F8556FFAF26F719B /* Pods-AwesomeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftTests/Pods-AwesomeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6153BFD7AB873188A63FEA31 /* Pods-AwesomeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftUITests/Pods-AwesomeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -313,6 +321,17 @@
 			name = Layer;
 			sourceTree = "<group>";
 		};
+		1FFB453E1E791FFD008F1946 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				1FFB453F1E792006008F1946 /* AppNavigationController.swift */,
+				1FFB45401E792006008F1946 /* MaterialNavigationController.swift */,
+				1FFB45411E792006008F1946 /* NavigationRootViewController.swift */,
+				1FFB45421E792006008F1946 /* TransitionViewController.swift */,
+			);
+			name = NavigationController;
+			sourceTree = "<group>";
+		};
 		37AAF2E64021B15F2A89B857 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +356,7 @@
 		BC1B10041E784D1C00A9EA20 /* Material */ = {
 			isa = PBXGroup;
 			children = (
+				1FFB453E1E791FFD008F1946 /* NavigationController */,
 				1FFB45391E791E22008F1946 /* Layer */,
 				1FFB45341E791D42008F1946 /* ImageCard */,
 				1FFB45311E791B2E008F1946 /* Grid */,
@@ -781,13 +801,16 @@
 				1F2FFD391E79164E00503E77 /* FABAppMenuController.swift in Sources */,
 				1FF65CA21E76B197006783B1 /* UIColorExtension.swift in Sources */,
 				1F8588001E76BE9B00B9EA26 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
+				1FFB45431E792006008F1946 /* AppNavigationController.swift in Sources */,
 				1F11BCD41E78D0040050AA2E /* CardViewController.swift in Sources */,
 				1FEFF0BB1E78EA160064A24B /* CardTableView.swift in Sources */,
 				1FEFF0BF1E78EA160064A24B /* SampleData.swift in Sources */,
 				1F2FFD321E7912B500503E77 /* FABMenuViewController.swift in Sources */,
+				1FFB45441E792006008F1946 /* MaterialNavigationController.swift in Sources */,
 				1F2FFD341E7912B500503E77 /* NotesViewController.swift in Sources */,
 				1F16442F1E76822B009D70A0 /* Helper.swift in Sources */,
 				BC1B10141E784D5100A9EA20 /* AudioViewController.swift in Sources */,
+				1FFB45451E792006008F1946 /* NavigationRootViewController.swift in Sources */,
 				BC1B100A1E784D3F00A9EA20 /* MaterialViewController.swift in Sources */,
 				BC1B10171E784D5100A9EA20 /* RemindersViewController.swift in Sources */,
 				BC9AE1701E7043F300D3199C /* ViewController.swift in Sources */,
@@ -797,6 +820,7 @@
 				1FFB453B1E791E29008F1946 /* LayerViewController.swift in Sources */,
 				1FFB45361E791D4F008F1946 /* ImageCardViewController.swift in Sources */,
 				BC1B10081E784D3F00A9EA20 /* BarViewController.swift in Sources */,
+				1FFB45461E792006008F1946 /* TransitionViewController.swift in Sources */,
 				1FEFF0BC1E78EA160064A24B /* CardTableViewCell.swift in Sources */,
 				1FF65CA01E76B197006783B1 /* KoyomiViewController.swift in Sources */,
 				1FEFF0BD1E78EA160064A24B /* CardTableViewController.swift in Sources */,
