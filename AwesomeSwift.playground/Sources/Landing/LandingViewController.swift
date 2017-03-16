@@ -79,7 +79,7 @@ public class LandingViewController: UIViewController {
         let controller = SubmenuViewController()
         if let title = sender.title(for: .normal) {
             controller.subMenus = landingMenus[title]
-            controller.navigationItem.title = title
+            controller.title = title
             let navController = UINavigationController(rootViewController: controller)
             navController.title = title
             present(navController, animated: true, completion: nil)

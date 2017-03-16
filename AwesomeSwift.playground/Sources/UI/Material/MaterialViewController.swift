@@ -7,7 +7,7 @@ public class MaterialViewController:UIViewController {
         view.backgroundColor = .white
         automaticallyAdjustsScrollViewInsets = false
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: .done, target: self, action: #selector(handleBack))
-        
+        title = "Material"
         setupLayout()
     }
     

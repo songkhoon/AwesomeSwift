@@ -29,7 +29,7 @@ class ChattoViewController: UIViewController {
         controller.view.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         controller.view.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         
-        navigationItem.title = "Chatto Demo"
+        title = "Chatto Demo"
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(handleBack))
 
     }
