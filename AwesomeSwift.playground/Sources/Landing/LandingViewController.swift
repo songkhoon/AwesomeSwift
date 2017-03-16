@@ -23,6 +23,9 @@ public class LandingViewController: UIViewController {
             "CalendarKit":ExampleController.self,
             "CalendarView":CalendarViewController.self,
             "Koyomi":KoyomiViewController.self
+        ],
+        "Messaging":[
+            "Chatto":ChattoViewController.self
         ]
 
     ]
