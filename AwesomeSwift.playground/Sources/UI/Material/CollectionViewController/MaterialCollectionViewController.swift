@@ -53,7 +53,6 @@ extension MaterialCollectionViewController {
             let card = Card()
             let imageView = UIImageView()
             imageView.image = UIImage(named: item)?.resize(toWidth: w)
-            print(imageView.image)
             imageView.contentMode = .scaleAspectFit
             card.contentView = imageView
             self.dataSourceItems.append(DataSourceItem(data: card, height: card.height))
