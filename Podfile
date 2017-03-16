@@ -18,6 +18,9 @@ target 'AwesomeSwift' do
   pod 'Graph', '~> 2.0'
   pod 'Motion', '~> 1.0'
   pod 'Material/Photos', '~> 2.0'
+  
+  pod 'Chatto', '= 3.0.1'
+  pod 'ChattoAdditions', '= 3.0.1'
 
   target 'AwesomeSwiftTests' do
     inherit! :search_paths
