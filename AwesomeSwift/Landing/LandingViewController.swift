@@ -43,6 +43,7 @@ public class LandingViewController: UIViewController {
             "Snack Bar":SBViewController(),
             "TextField":TextFieldViewController()
         ]
+        
         landingMenus = [
             "UI":[
                 "Material":materialController,
@@ -57,6 +58,9 @@ public class LandingViewController: UIViewController {
             ],
             "Messaging":[
                 "Chatto":ChattoViewController()
+            ],
+            "Alert":[
+                "Generic Alert":AlertViewController()
             ]
         ]
         

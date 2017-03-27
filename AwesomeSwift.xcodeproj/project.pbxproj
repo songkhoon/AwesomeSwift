@@ -113,6 +113,7 @@
 		1F2D06451E88F297000BF049 /* surf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D062B1E88F297000BF049 /* surf.jpg */; };
 		1F2D06461E88F297000BF049 /* thomas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D062C1E88F297000BF049 /* thomas.jpg */; };
 		1F2D06471E88F297000BF049 /* yoga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F2D062D1E88F297000BF049 /* yoga.jpg */; };
+		1F2D064D1E88F62E000BF049 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D064C1E88F62E000BF049 /* AlertViewController.swift */; };
 		1F55A3141E7A85F200A205B5 /* BaseMessageCollectionViewCellAvatarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F55A2FB1E7A85F200A205B5 /* BaseMessageCollectionViewCellAvatarStyle.swift */; };
 		1F55A3151E7A85F200A205B5 /* BaseMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F55A2FC1E7A85F200A205B5 /* BaseMessageHandler.swift */; };
 		1F55A3161E7A85F200A205B5 /* ChatItemsDemoDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F55A2FD1E7A85F200A205B5 /* ChatItemsDemoDecorator.swift */; };
@@ -270,6 +271,7 @@
 		1F2D062B1E88F297000BF049 /* surf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = surf.jpg; sourceTree = "<group>"; };
 		1F2D062C1E88F297000BF049 /* thomas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thomas.jpg; sourceTree = "<group>"; };
 		1F2D062D1E88F297000BF049 /* yoga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoga.jpg; sourceTree = "<group>"; };
+		1F2D064C1E88F62E000BF049 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		1F55A2FB1E7A85F200A205B5 /* BaseMessageCollectionViewCellAvatarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMessageCollectionViewCellAvatarStyle.swift; sourceTree = "<group>"; };
 		1F55A2FC1E7A85F200A205B5 /* BaseMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMessageHandler.swift; sourceTree = "<group>"; };
 		1F55A2FD1E7A85F200A205B5 /* ChatItemsDemoDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatItemsDemoDecorator.swift; sourceTree = "<group>"; };
@@ -661,6 +663,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		1F2D064B1E88F62E000BF049 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				1F2D064C1E88F62E000BF049 /* AlertViewController.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		1F55A2F91E7A85F200A205B5 /* Messaging */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,6 +794,7 @@
 				1F1A640D1E7B8D63004DC852 /* Calendar */,
 				1F1A641D1E7B8DD8004DC852 /* Animation */,
 				1F1A642C1E7B8ECB004DC852 /* UI */,
+				1F2D064B1E88F62E000BF049 /* Alert */,
 				BC9AE16D1E7043F300D3199C /* AppDelegate.swift */,
 				BC9AE16F1E7043F300D3199C /* ViewController.swift */,
 				BC9AE1711E7043F300D3199C /* Main.storyboard */,
@@ -1151,6 +1162,7 @@
 				1F1A649B1E7B8ECB004DC852 /* LayerViewController.swift in Sources */,
 				1F55A3251E7A85F200A205B5 /* DemoTextMessageViewModel.swift in Sources */,
 				1F55A31E1E7A85F200A205B5 /* DemoPhotoMessageViewModel.swift in Sources */,
+				1F2D064D1E88F62E000BF049 /* AlertViewController.swift in Sources */,
 				1F1A64A51E7B8ECB004DC852 /* NavigationDrawerRootViewController.swift in Sources */,
 				1F1A64881E7B8ECB004DC852 /* ButtonViewController.swift in Sources */,
 				1F1A64B51E7B8ECB004DC852 /* PhotoLibraryViewController.swift in Sources */,
