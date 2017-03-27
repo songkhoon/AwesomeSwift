@@ -17,7 +17,7 @@ public class LandingViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         automaticallyAdjustsScrollViewInsets = false
-        UIView.appearance().backgroundColor = .white
+        view.backgroundColor = .white
         navigationItem.title = "Landing"
         
         let materialController = SubmenuViewController()
