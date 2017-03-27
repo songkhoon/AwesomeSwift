@@ -12,29 +12,31 @@ public class LandingViewController: UIViewController {
     
     let landingCellId = String(describing: LandingCell.self)
     var landingButtons = [UIButton]()
-    public let landingMenus:[String:[String:AnyClass]] = [
-        "UI":[
-            "Material":MaterialViewController.self
-        ],
-        "Animation":[
-            "Animated Collection View Layout":AnimatedCollectionViewLayoutViewController.self
-        ],
-        "Calendar":[
-            "CalendarKit":ExampleController.self,
-            "CalendarView":CalendarViewController.self,
-            "Koyomi":KoyomiViewController.self
-        ],
-        "Messaging":[
-            "Chatto":ChattoViewController.self
-        ]
-
-    ]
+    public var landingMenus:[String:[String:UIViewController]] = [:]
     
     override public func viewDidLoad() {
         super.viewDidLoad()
         automaticallyAdjustsScrollViewInsets = false
         view.backgroundColor = .white
         navigationItem.title = "Landing"
+        
+        let materialController = MaterialViewController()
+        landingMenus = [
+            "UI":[
+                "Material":materialController,
+            ],
+            "Animation":[
+                "Animated Collection View Layout":AnimatedCollectionViewLayoutViewController()
+            ],
+            "Calendar":[
+                "CalendarKit":ExampleController(),
+                "CalendarView":CalendarViewController(),
+                "Koyomi":KoyomiViewController()
+            ],
+            "Messaging":[
+                "Chatto":ChattoViewController()
+            ]
+        ]
         
         setupLayout()
     }
@@ -62,13 +64,11 @@ public class LandingViewController: UIViewController {
         
         menuCollection.didMove(toParentViewController: self)
         
-        var menus = [UIButton:AnyClass]()
         var buttons = [UIButton]()
         for item in landingMenus {
             let button = createButton(item.key)
             button.addTarget(self, action: #selector(handleSubmenu(_:)), for: .touchUpInside)
             buttons.append(button)
-            menus[button] = SubmenuViewController.self
         }
         menuCollection.buttons = buttons
         

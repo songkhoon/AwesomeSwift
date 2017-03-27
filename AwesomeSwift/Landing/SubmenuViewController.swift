@@ -2,8 +2,8 @@ import UIKit
 
 public class SubmenuViewController:UIViewController {
     
-    var subMenus:[String:AnyClass]?
-    var classMenus:[UIButton:AnyClass] = [:]
+    var subMenus:[String:UIViewController]?
+    var classMenus:[UIButton:UIViewController] = [:]
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,8 +46,8 @@ public class SubmenuViewController:UIViewController {
     }
     
     func handleSubmenu(_ sender:UIButton) {
-        if let controller = classMenus[sender] as? UIViewController.Type {
-            let navController = UINavigationController(rootViewController: controller.init())
+        if let controller = classMenus[sender] {
+            let navController = UINavigationController(rootViewController: controller)
             present(navController, animated: true, completion: nil)
         }
         
