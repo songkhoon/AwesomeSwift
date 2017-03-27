@@ -48,6 +48,8 @@ public class SubmenuViewController:UIViewController {
     func handleSubmenu(_ sender:UIButton) {
         if let controller = classMenus[sender] {
             let navController = UINavigationController(rootViewController: controller)
+            controller.title = sender.currentTitle
+            controller.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(handleBack))
             present(navController, animated: true, completion: nil)
         }
         

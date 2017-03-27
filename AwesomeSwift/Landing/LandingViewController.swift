@@ -20,7 +20,29 @@ public class LandingViewController: UIViewController {
         view.backgroundColor = .white
         navigationItem.title = "Landing"
         
-        let materialController = MaterialViewController()
+        let materialController = SubmenuViewController()
+        materialController.title = "Material Design"
+        materialController.subMenus = [
+            "Bar":BarViewController(),
+            "Button":ButtonViewController(),
+            "Bottom Navigation":BottomNavigationViewController(),
+            "Card View":CardViewController(),
+            "Card Table View":CardTableViewController(),
+            "Collection View":MaterialCollectionViewController(),
+            "Floating Action Button":FABMenuViewController(),
+            "Grid":GridViewController(),
+            "Image Card":ImageCardViewController(),
+            "Layer":LayerViewController(),
+            "Navigation Controller":MaterialNavigationController(),
+            "Navigation Drawer":NavigationDrawerViewController(),
+            "Page Tab Bar":PageTabBarViewController(),
+            "Photo Collection":PCViewController(),
+            "Photo Library":PLViewController(),
+            "Presenter Card":PresenterCardViewController(),
+            "Search":SearchVC(),
+            "Snack Bar":SBViewController(),
+            "TextField":TextFieldViewController()
+        ]
         landingMenus = [
             "UI":[
                 "Material":materialController,
