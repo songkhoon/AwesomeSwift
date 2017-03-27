@@ -60,7 +60,8 @@ public class LandingViewController: UIViewController {
                 "Chatto":ChattoViewController()
             ],
             "Alert":[
-                "Generic Alert":AlertViewController()
+                "Generic Alert":AlertViewController(),
+                "CDAlertView":CDAlertViewController()
             ]
         ]
         

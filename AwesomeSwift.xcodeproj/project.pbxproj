@@ -136,6 +136,7 @@
 		1F55A3271E7A85F200A205B5 /* TimeSeparatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F55A3121E7A85F200A205B5 /* TimeSeparatorModel.swift */; };
 		1F55A3281E7A85F200A205B5 /* TimeSeparatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F55A3131E7A85F200A205B5 /* TimeSeparatorPresenter.swift */; };
 		1F55A32A1E7A887C00A205B5 /* ChattoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F55A3291E7A887C00A205B5 /* ChattoViewController.swift */; };
+		1FC364161E890E6400F2EBC0 /* CDAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC364151E890E6400F2EBC0 /* CDAlertViewController.swift */; };
 		454580E5D62A31136110F292 /* Pods_AwesomeSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9136A79302FEDE426994EDE7 /* Pods_AwesomeSwiftTests.framework */; };
 		61DEFEB4B3FC93494B2F3995 /* Pods_AwesomeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */; };
 		BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9AE16D1E7043F300D3199C /* AppDelegate.swift */; };
@@ -294,6 +295,7 @@
 		1F55A3121E7A85F200A205B5 /* TimeSeparatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSeparatorModel.swift; sourceTree = "<group>"; };
 		1F55A3131E7A85F200A205B5 /* TimeSeparatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSeparatorPresenter.swift; sourceTree = "<group>"; };
 		1F55A3291E7A887C00A205B5 /* ChattoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattoViewController.swift; sourceTree = "<group>"; };
+		1FC364151E890E6400F2EBC0 /* CDAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDAlertViewController.swift; sourceTree = "<group>"; };
 		31AD3AC2F8556FFAF26F719B /* Pods-AwesomeSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftTests/Pods-AwesomeSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		51C0C6919001EC2ED1ECAC81 /* Pods_AwesomeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6153BFD7AB873188A63FEA31 /* Pods-AwesomeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeSwiftUITests/Pods-AwesomeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -666,6 +668,7 @@
 		1F2D064B1E88F62E000BF049 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				1FC364141E890E3700F2EBC0 /* CDAlertView */,
 				1F2D064C1E88F62E000BF049 /* AlertViewController.swift */,
 			);
 			path = Alert;
@@ -738,6 +741,14 @@
 				1F55A3131E7A85F200A205B5 /* TimeSeparatorPresenter.swift */,
 			);
 			path = "Time Separator";
+			sourceTree = "<group>";
+		};
+		1FC364141E890E3700F2EBC0 /* CDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				1FC364151E890E6400F2EBC0 /* CDAlertViewController.swift */,
+			);
+			path = CDAlertView;
 			sourceTree = "<group>";
 		};
 		1FE6D9ED1E724448008094B9 /* AwesomeSwift */ = {
@@ -1177,6 +1188,7 @@
 				1F1A648C1E7B8ECB004DC852 /* CardTableView.swift in Sources */,
 				1F55A3161E7A85F200A205B5 /* ChatItemsDemoDecorator.swift in Sources */,
 				1F1A64B21E7B8ECB004DC852 /* PhotoLibraryCollectionReusableView.swift in Sources */,
+				1FC364161E890E6400F2EBC0 /* CDAlertViewController.swift in Sources */,
 				1F55A3271E7A85F200A205B5 /* TimeSeparatorModel.swift in Sources */,
 				1F1A64B61E7B8ECB004DC852 /* PLAppToolbarController.swift in Sources */,
 				1F1A64B91E7B8ECB004DC852 /* AppSearchBarController.swift in Sources */,
