@@ -21,6 +21,8 @@ target 'AwesomeSwift' do
   
   pod 'Chatto', '= 3.0.1'
   pod 'ChattoAdditions', '= 3.0.1'
+  
+  pod 'CDAlertView'
 
   target 'AwesomeSwiftTests' do
     inherit! :search_paths

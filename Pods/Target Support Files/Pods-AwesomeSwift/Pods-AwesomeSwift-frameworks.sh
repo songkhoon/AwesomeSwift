@@ -90,6 +90,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CDAlertView/CDAlertView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CalendarKit/CalendarKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CalendarView/CalendarView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Chatto/Chatto.framework"
@@ -105,6 +106,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/CDAlertView/CDAlertView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CalendarKit/CalendarKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/CalendarView/CalendarView.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Chatto/Chatto.framework"
