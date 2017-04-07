@@ -66,7 +66,8 @@ public class LandingViewController: UIViewController {
             ],
             "Demo":[
                 "Stopwatch":StopwatchViewController(),
-                "Custom Tableview":CustomTableViewController()
+                "Custom Tableview":CustomTableViewController(),
+                "KFC Google Map":GoogleMapViewController()
             ]
         ]
         

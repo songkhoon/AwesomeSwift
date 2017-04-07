@@ -23,6 +23,22 @@
 		1F043BF31E97703700CD19E8 /* SlideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BE91E97703700CD19E8 /* SlideMenuCell.swift */; };
 		1F043BF41E97703700CD19E8 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BEA1E97703700CD19E8 /* SlideMenuController.swift */; };
 		1F043BF51E97703700CD19E8 /* TableDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BEB1E97703700CD19E8 /* TableDataController.swift */; };
+		1F043C0A1E978BC800CD19E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F043BF81E978BC800CD19E8 /* Assets.xcassets */; };
+		1F043C0B1E978BC800CD19E8 /* DataManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BF91E978BC800CD19E8 /* DataManagementViewController.swift */; };
+		1F043C0C1E978BC800CD19E8 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BFA1E978BC800CD19E8 /* DownloadManager.swift */; };
+		1F043C0D1E978BC800CD19E8 /* GoogleMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BFB1E978BC800CD19E8 /* GoogleMap.xcdatamodeld */; };
+		1F043C0E1E978BC800CD19E8 /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BFD1E978BC800CD19E8 /* GoogleMapViewController.swift */; };
+		1F043C0F1E978BC800CD19E8 /* GoogleMapViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BFE1E978BC800CD19E8 /* GoogleMapViewControllerExtension.swift */; };
+		1F043C101E978BC800CD19E8 /* HttpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BFF1E978BC800CD19E8 /* HttpViewController.swift */; };
+		1F043C111E978BC800CD19E8 /* ImageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043C001E978BC800CD19E8 /* ImageContent.swift */; };
+		1F043C121E978BC800CD19E8 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043C011E978BC800CD19E8 /* ImageData.swift */; };
+		1F043C131E978BC800CD19E8 /* ImageDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043C021E978BC800CD19E8 /* ImageDataCell.swift */; };
+		1F043C141E978BC800CD19E8 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043C031E978BC800CD19E8 /* ImageExtension.swift */; };
+		1F043C151E978BC800CD19E8 /* jayaone.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1F043C041E978BC800CD19E8 /* jayaone.gpx */; };
+		1F043C161E978BC800CD19E8 /* GoogleMapLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043C051E978BC800CD19E8 /* GoogleMapLandingViewController.swift */; };
+		1F043C171E978BC800CD19E8 /* MapAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043C061E978BC800CD19E8 /* MapAddressCell.swift */; };
+		1F043C181E978BC800CD19E8 /* MapContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043C071E978BC800CD19E8 /* MapContentCell.swift */; };
+		1F043C191E978BC800CD19E8 /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043C081E978BC800CD19E8 /* StoreData.swift */; };
 		1F1A64171E7B8D63004DC852 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A640F1E7B8D63004DC852 /* ExampleController.swift */; };
 		1F1A64181E7B8D63004DC852 /* StyleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A64101E7B8D63004DC852 /* StyleGenerator.swift */; };
 		1F1A64191E7B8D63004DC852 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A64121E7B8D63004DC852 /* CalendarViewController.swift */; };
@@ -205,6 +221,22 @@
 		1F043BE91E97703700CD19E8 /* SlideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuCell.swift; sourceTree = "<group>"; };
 		1F043BEA1E97703700CD19E8 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
 		1F043BEB1E97703700CD19E8 /* TableDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataController.swift; sourceTree = "<group>"; };
+		1F043BF81E978BC800CD19E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F043BF91E978BC800CD19E8 /* DataManagementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagementViewController.swift; sourceTree = "<group>"; };
+		1F043BFA1E978BC800CD19E8 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		1F043BFC1E978BC800CD19E8 /* GoogleMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleMap.xcdatamodel; sourceTree = "<group>"; };
+		1F043BFD1E978BC800CD19E8 /* GoogleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
+		1F043BFE1E978BC800CD19E8 /* GoogleMapViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewControllerExtension.swift; sourceTree = "<group>"; };
+		1F043BFF1E978BC800CD19E8 /* HttpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpViewController.swift; sourceTree = "<group>"; };
+		1F043C001E978BC800CD19E8 /* ImageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageContent.swift; sourceTree = "<group>"; };
+		1F043C011E978BC800CD19E8 /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		1F043C021E978BC800CD19E8 /* ImageDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDataCell.swift; sourceTree = "<group>"; };
+		1F043C031E978BC800CD19E8 /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		1F043C041E978BC800CD19E8 /* jayaone.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = jayaone.gpx; sourceTree = "<group>"; };
+		1F043C051E978BC800CD19E8 /* GoogleMapLandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapLandingViewController.swift; sourceTree = "<group>"; };
+		1F043C061E978BC800CD19E8 /* MapAddressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAddressCell.swift; sourceTree = "<group>"; };
+		1F043C071E978BC800CD19E8 /* MapContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapContentCell.swift; sourceTree = "<group>"; };
+		1F043C081E978BC800CD19E8 /* StoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
 		1F1A640F1E7B8D63004DC852 /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
 		1F1A64101E7B8D63004DC852 /* StyleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGenerator.swift; sourceTree = "<group>"; };
 		1F1A64121E7B8D63004DC852 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -398,6 +430,7 @@
 		1F043B7E1E975EF000CD19E8 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1F043BF61E978BC800CD19E8 /* GoogleMap */,
 				1F043B7F1E975EF000CD19E8 /* StopWatch */,
 				1F043BDC1E97703700CD19E8 /* CustomTableView */,
 			);
@@ -431,6 +464,29 @@
 				1F043BEB1E97703700CD19E8 /* TableDataController.swift */,
 			);
 			path = CustomTableView;
+			sourceTree = "<group>";
+		};
+		1F043BF61E978BC800CD19E8 /* GoogleMap */ = {
+			isa = PBXGroup;
+			children = (
+				1F043BF81E978BC800CD19E8 /* Assets.xcassets */,
+				1F043BF91E978BC800CD19E8 /* DataManagementViewController.swift */,
+				1F043BFA1E978BC800CD19E8 /* DownloadManager.swift */,
+				1F043BFB1E978BC800CD19E8 /* GoogleMap.xcdatamodeld */,
+				1F043BFD1E978BC800CD19E8 /* GoogleMapViewController.swift */,
+				1F043BFE1E978BC800CD19E8 /* GoogleMapViewControllerExtension.swift */,
+				1F043BFF1E978BC800CD19E8 /* HttpViewController.swift */,
+				1F043C001E978BC800CD19E8 /* ImageContent.swift */,
+				1F043C011E978BC800CD19E8 /* ImageData.swift */,
+				1F043C021E978BC800CD19E8 /* ImageDataCell.swift */,
+				1F043C031E978BC800CD19E8 /* ImageExtension.swift */,
+				1F043C041E978BC800CD19E8 /* jayaone.gpx */,
+				1F043C051E978BC800CD19E8 /* GoogleMapLandingViewController.swift */,
+				1F043C061E978BC800CD19E8 /* MapAddressCell.swift */,
+				1F043C071E978BC800CD19E8 /* MapContentCell.swift */,
+				1F043C081E978BC800CD19E8 /* StoreData.swift */,
+			);
+			path = GoogleMap;
 			sourceTree = "<group>";
 		};
 		1F1A640A1E7B8D32004DC852 /* Helper */ = {
@@ -1091,10 +1147,12 @@
 				1F2D06381E88F297000BF049 /* kendall.jpg in Resources */,
 				BC9AE1781E7043F300D3199C /* Assets.xcassets in Resources */,
 				1F2D06371E88F297000BF049 /* kelly.jpeg in Resources */,
+				1F043C0A1E978BC800CD19E8 /* Assets.xcassets in Resources */,
 				BC9AE1731E7043F300D3199C /* Main.storyboard in Resources */,
 				1F4C17C71E8934B500D0916B /* warningIcon@2x.png in Resources */,
 				1F2D06461E88F297000BF049 /* thomas.jpg in Resources */,
 				1F2D06411E88F297000BF049 /* photo5.jpg in Resources */,
+				1F043C151E978BC800CD19E8 /* jayaone.gpx in Resources */,
 				1F4C17C61E8934B500D0916B /* successIcon@2x.png in Resources */,
 				1F2D063F1E88F297000BF049 /* photo3.jpg in Resources */,
 				1F2D063E1E88F297000BF049 /* photo2.jpg in Resources */,
@@ -1269,6 +1327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F1A64951E7B8ECB004DC852 /* FABMenuViewController.swift in Sources */,
+				1F043C0D1E978BC800CD19E8 /* GoogleMap.xcdatamodeld in Sources */,
 				1F1A648B1E7B8ECB004DC852 /* AppToolbarController.swift in Sources */,
 				1F1A64A31E7B8ECB004DC852 /* NavigationDrawerLeftViewController.swift in Sources */,
 				1F1A64181E7B8D63004DC852 /* StyleGenerator.swift in Sources */,
@@ -1282,6 +1341,7 @@
 				1F2D064D1E88F62E000BF049 /* AlertViewController.swift in Sources */,
 				1F1A64A51E7B8ECB004DC852 /* NavigationDrawerRootViewController.swift in Sources */,
 				1F1A64881E7B8ECB004DC852 /* ButtonViewController.swift in Sources */,
+				1F043C101E978BC800CD19E8 /* HttpViewController.swift in Sources */,
 				1F1A64B51E7B8ECB004DC852 /* PhotoLibraryViewController.swift in Sources */,
 				1F1A64221E7B8DD8004DC852 /* ImageCollectionViewController.swift in Sources */,
 				1F043BED1E97703700CD19E8 /* Core_Data.xcdatamodeld in Sources */,
@@ -1290,6 +1350,7 @@
 				1F1A64901E7B8ECB004DC852 /* SampleData.swift in Sources */,
 				1F1A64C11E7B8ECB004DC852 /* TextFieldViewController.swift in Sources */,
 				1F1A64941E7B8ECB004DC852 /* FABAppMenuController.swift in Sources */,
+				1F043C0C1E978BC800CD19E8 /* DownloadManager.swift in Sources */,
 				1F043BF41E97703700CD19E8 /* SlideMenuController.swift in Sources */,
 				1F1A64911E7B8ECB004DC852 /* CardViewController.swift in Sources */,
 				1F1A64B71E7B8ECB004DC852 /* PLViewController.swift in Sources */,
@@ -1301,17 +1362,23 @@
 				1F55A3271E7A85F200A205B5 /* TimeSeparatorModel.swift in Sources */,
 				1F1A64B61E7B8ECB004DC852 /* PLAppToolbarController.swift in Sources */,
 				1F1A64B91E7B8ECB004DC852 /* AppSearchBarController.swift in Sources */,
+				1F043C0E1E978BC800CD19E8 /* GoogleMapViewController.swift in Sources */,
 				1F1A64B01E7B8ECB004DC852 /* PCViewController.swift in Sources */,
+				1F043C141E978BC800CD19E8 /* ImageExtension.swift in Sources */,
 				1F1A64AB1E7B8ECB004DC852 /* PageTabBarViewController.swift in Sources */,
 				1F1A64C01E7B8ECB004DC852 /* SBViewController.swift in Sources */,
 				1F1A64211E7B8DD8004DC852 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
 				1F1A64971E7B8ECB004DC852 /* FABRootViewController.swift in Sources */,
 				1F043BF11E97703700CD19E8 /* Library.xcdatamodeld in Sources */,
+				1F043C181E978BC800CD19E8 /* MapContentCell.swift in Sources */,
+				1F043C111E978BC800CD19E8 /* ImageContent.swift in Sources */,
 				1F1A64AA1E7B8ECB004DC852 /* PageTabBarAppController.swift in Sources */,
+				1F043C161E978BC800CD19E8 /* GoogleMapLandingViewController.swift in Sources */,
 				1F043BEF1E97703700CD19E8 /* CustomTableView.xcdatamodeld in Sources */,
 				1F1A64BE1E7B8ECB004DC852 /* AppSnackbarController.swift in Sources */,
 				1F1A64991E7B8ECB004DC852 /* GridViewController.swift in Sources */,
 				1F4C17C31E8934B500D0916B /* GoogleWearAlert.swift in Sources */,
+				1F043C0B1E978BC800CD19E8 /* DataManagementViewController.swift in Sources */,
 				1F1A64A61E7B8ECB004DC852 /* NavigationDrawerTransitionedViewController.swift in Sources */,
 				1F1A64A11E7B8ECB004DC852 /* NavigationDrawerAppController.swift in Sources */,
 				1F1A641B1E7B8D63004DC852 /* MyButton.swift in Sources */,
@@ -1320,6 +1387,7 @@
 				1F1A642B1E7B8E2F004DC852 /* SubmenuViewController.swift in Sources */,
 				1F043B8F1E975EF000CD19E8 /* StopwatchViewController.swift in Sources */,
 				1F043B8E1E975EF000CD19E8 /* StopwatchStoryboardViewController.swift in Sources */,
+				1F043C171E978BC800CD19E8 /* MapAddressCell.swift in Sources */,
 				1F1A64AD1E7B8ECB004DC852 /* PCAppNavigationController.swift in Sources */,
 				1F043BF21E97703700CD19E8 /* SlideMenuAnimationController.swift in Sources */,
 				1F1A64841E7B8ECB004DC852 /* PhotoViewController.swift in Sources */,
@@ -1335,6 +1403,7 @@
 				1F55A3211E7A85F200A205B5 /* SendingStatusPresenter.swift in Sources */,
 				1F1A64A21E7B8ECB004DC852 /* NavigationDrawerAppToolbarController.swift in Sources */,
 				1F1A64A01E7B8ECB004DC852 /* TransitionViewController.swift in Sources */,
+				1F043C121E978BC800CD19E8 /* ImageData.swift in Sources */,
 				1F1A64B11E7B8ECB004DC852 /* PhotoCollectionViewCell.swift in Sources */,
 				1F55A31B1E7A85F200A205B5 /* FakeMessageSender.swift in Sources */,
 				1F55A3231E7A85F200A205B5 /* DemoTextMessageHandler.swift in Sources */,
@@ -1347,15 +1416,18 @@
 				1F1A648F1E7B8ECB004DC852 /* PostsViewController.swift in Sources */,
 				1F55A3261E7A85F200A205B5 /* TimeSeparatorCollectionViewCell.swift in Sources */,
 				1F1A64831E7B8ECB004DC852 /* BottomNavigationViewController.swift in Sources */,
+				1F043C0F1E978BC800CD19E8 /* GoogleMapViewControllerExtension.swift in Sources */,
 				1F1A64851E7B8ECB004DC852 /* RemindersViewController.swift in Sources */,
 				1F55A3151E7A85F200A205B5 /* BaseMessageHandler.swift in Sources */,
 				1F1A64921E7B8ECB004DC852 /* CardCollectionViewCell.swift in Sources */,
 				1F55A31F1E7A85F200A205B5 /* SendingStatusCollectionViewCell.swift in Sources */,
+				1F043C191E978BC800CD19E8 /* StoreData.swift in Sources */,
 				1F1A64B81E7B8ECB004DC852 /* PresenterCardViewController.swift in Sources */,
 				BC9AE16E1E7043F300D3199C /* AppDelegate.swift in Sources */,
 				1F1A641C1E7B8D63004DC852 /* UIColorExtension.swift in Sources */,
 				1F1A64C41E7B9074004DC852 /* Helper.swift in Sources */,
 				1F1A64171E7B8D63004DC852 /* ExampleController.swift in Sources */,
+				1F043C131E978BC800CD19E8 /* ImageDataCell.swift in Sources */,
 				1F4C17CB1E89D71E00D0916B /* GoogleWearAlertViewController.swift in Sources */,
 				1F1A641A1E7B8D63004DC852 /* KoyomiViewController.swift in Sources */,
 				1F55A3241E7A85F200A205B5 /* DemoTextMessageModel.swift in Sources */,
@@ -1707,6 +1779,16 @@
 			);
 			currentVersion = 1F043BE71E97703700CD19E8 /* Library.xcdatamodel */;
 			path = Library.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		1F043BFB1E978BC800CD19E8 /* GoogleMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F043BFC1E978BC800CD19E8 /* GoogleMap.xcdatamodel */,
+			);
+			currentVersion = 1F043BFC1E978BC800CD19E8 /* GoogleMap.xcdatamodel */;
+			path = GoogleMap.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
