@@ -23,6 +23,11 @@ target 'AwesomeSwift' do
   pod 'ChattoAdditions', '= 3.0.1'
   
   pod 'CDAlertView'
+  
+  # Pods for Google Map
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
 
   target 'AwesomeSwiftTests' do
     inherit! :search_paths
