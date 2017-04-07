@@ -57,7 +57,7 @@ class StopwatchViewController: UIViewController {
     
     // MARK:- Handlers
     func handleStoryboard() {
-        if let storyboard = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as? StopwatchStoryboardViewController {
+        if let storyboard = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Stopwatch") as? StopwatchStoryboardViewController {
             let navController = UINavigationController()
             navController.viewControllers = [storyboard]
             present(navController, animated: true, completion: nil)

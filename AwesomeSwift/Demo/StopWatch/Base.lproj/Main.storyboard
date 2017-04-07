@@ -12,7 +12,7 @@
         <!--Stopwatch Storyboard View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="StopwatchStoryboardViewController" customModule="AwesomeSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Stopwatch" id="BYZ-38-t0r" customClass="StopwatchStoryboardViewController" customModule="AwesomeSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -93,7 +93,7 @@
         <scene sceneID="2o5-Lp-sfa">
             <objects>
                 <navigationController id="8oD-Ze-f9p" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="xgN-wa-3as">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xgN-wa-3as">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
