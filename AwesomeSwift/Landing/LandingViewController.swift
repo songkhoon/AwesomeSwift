@@ -63,6 +63,9 @@ public class LandingViewController: UIViewController {
                 "Generic Alert":AlertViewController(),
                 "CDAlertView":CDAlertViewController(),
                 "Google Wear Alert":GoogleWearAlertViewController()
+            ],
+            "Demo":[
+                "Stopwatch":StopwatchViewController()
             ]
         ]
         

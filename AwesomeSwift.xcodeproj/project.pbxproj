@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0FAEDB996A579761D7FD4CFD /* Pods_AwesomeSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7109D7E5D8C4ECE58BEDBCD0 /* Pods_AwesomeSwiftUITests.framework */; };
+		1F043B8A1E975EF000CD19E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F043B811E975EF000CD19E8 /* Assets.xcassets */; };
+		1F043B8C1E975EF000CD19E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F043B841E975EF000CD19E8 /* Main.storyboard */; };
+		1F043B8D1E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043B861E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift */; };
+		1F043B8E1E975EF000CD19E8 /* StopwatchStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043B871E975EF000CD19E8 /* StopwatchStoryboardViewController.swift */; };
+		1F043B8F1E975EF000CD19E8 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043B881E975EF000CD19E8 /* StopwatchViewController.swift */; };
 		1F1A64171E7B8D63004DC852 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A640F1E7B8D63004DC852 /* ExampleController.swift */; };
 		1F1A64181E7B8D63004DC852 /* StyleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A64101E7B8D63004DC852 /* StyleGenerator.swift */; };
 		1F1A64191E7B8D63004DC852 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A64121E7B8D63004DC852 /* CalendarViewController.swift */; };
@@ -174,6 +179,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F043B811E975EF000CD19E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F043B851E975EF000CD19E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F043B861E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchProgrammaticallyViewController.swift; sourceTree = "<group>"; };
+		1F043B871E975EF000CD19E8 /* StopwatchStoryboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchStoryboardViewController.swift; sourceTree = "<group>"; };
+		1F043B881E975EF000CD19E8 /* StopwatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		1F1A640F1E7B8D63004DC852 /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
 		1F1A64101E7B8D63004DC852 /* StyleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGenerator.swift; sourceTree = "<group>"; };
 		1F1A64121E7B8D63004DC852 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -364,6 +374,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F043B7E1E975EF000CD19E8 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1F043B7F1E975EF000CD19E8 /* StopWatch */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		1F043B7F1E975EF000CD19E8 /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1F043B811E975EF000CD19E8 /* Assets.xcassets */,
+				1F043B841E975EF000CD19E8 /* Main.storyboard */,
+				1F043B861E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift */,
+				1F043B871E975EF000CD19E8 /* StopwatchStoryboardViewController.swift */,
+				1F043B881E975EF000CD19E8 /* StopwatchViewController.swift */,
+			);
+			path = StopWatch;
+			sourceTree = "<group>";
+		};
 		1F1A640A1E7B8D32004DC852 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -827,6 +857,7 @@
 		BC9AE16C1E7043F200D3199C /* AwesomeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1F043B7E1E975EF000CD19E8 /* Demo */,
 				1F2D06131E88F297000BF049 /* Resources */,
 				1F1A64231E7B8E2F004DC852 /* Landing */,
 				1F1A640A1E7B8D32004DC852 /* Helper */,
@@ -1003,7 +1034,9 @@
 				1F2D06471E88F297000BF049 /* yoga.jpg in Resources */,
 				1F2D06441E88F297000BF049 /* photo8.jpg in Resources */,
 				1F2D06331E88F297000BF049 /* eve.jpg in Resources */,
+				1F043B8A1E975EF000CD19E8 /* Assets.xcassets in Resources */,
 				1F2D06321E88F297000BF049 /* deepali.jpg in Resources */,
+				1F043B8C1E975EF000CD19E8 /* Main.storyboard in Resources */,
 				1F2D06341E88F297000BF049 /* frontier.jpg in Resources */,
 				1F2D063B1E88F297000BF049 /* michael.jpg in Resources */,
 				1F2D062E1E88F297000BF049 /* ashton.png in Resources */,
@@ -1241,6 +1274,8 @@
 				1F1A64BF1E7B8ECB004DC852 /* SBRootViewController.swift in Sources */,
 				1F1A649A1E7B8ECB004DC852 /* ImageCardViewController.swift in Sources */,
 				1F1A642B1E7B8E2F004DC852 /* SubmenuViewController.swift in Sources */,
+				1F043B8F1E975EF000CD19E8 /* StopwatchViewController.swift in Sources */,
+				1F043B8E1E975EF000CD19E8 /* StopwatchStoryboardViewController.swift in Sources */,
 				1F1A64AD1E7B8ECB004DC852 /* PCAppNavigationController.swift in Sources */,
 				1F1A64841E7B8ECB004DC852 /* PhotoViewController.swift in Sources */,
 				1F1A649F1E7B8ECB004DC852 /* NavigationRootViewController.swift in Sources */,
@@ -1284,6 +1319,7 @@
 				1F1A64BC1E7B8ECB004DC852 /* SearchVC.swift in Sources */,
 				1F55A32A1E7A887C00A205B5 /* ChattoViewController.swift in Sources */,
 				1F1A64821E7B8ECB004DC852 /* AudioViewController.swift in Sources */,
+				1F043B8D1E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift in Sources */,
 				1F55A31D1E7A85F200A205B5 /* DemoPhotoMessageModel.swift in Sources */,
 				1F1A64861E7B8ECB004DC852 /* SearchViewController.swift in Sources */,
 				1F1A64191E7B8D63004DC852 /* CalendarViewController.swift in Sources */,
@@ -1338,6 +1374,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1F043B841E975EF000CD19E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F043B851E975EF000CD19E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		BC9AE1711E7043F300D3199C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
