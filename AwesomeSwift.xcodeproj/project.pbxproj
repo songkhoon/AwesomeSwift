@@ -13,6 +13,16 @@
 		1F043B8D1E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043B861E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift */; };
 		1F043B8E1E975EF000CD19E8 /* StopwatchStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043B871E975EF000CD19E8 /* StopwatchStoryboardViewController.swift */; };
 		1F043B8F1E975EF000CD19E8 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043B881E975EF000CD19E8 /* StopwatchViewController.swift */; };
+		1F043BEC1E97703700CD19E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F043BDD1E97703700CD19E8 /* Main.storyboard */; };
+		1F043BED1E97703700CD19E8 /* Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BDF1E97703700CD19E8 /* Core_Data.xcdatamodeld */; };
+		1F043BEE1E97703700CD19E8 /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BE11E97703700CD19E8 /* CustomTableCell.swift */; };
+		1F043BEF1E97703700CD19E8 /* CustomTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BE21E97703700CD19E8 /* CustomTableView.xcdatamodeld */; };
+		1F043BF01E97703700CD19E8 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BE51E97703700CD19E8 /* CustomTableViewController.swift */; };
+		1F043BF11E97703700CD19E8 /* Library.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BE61E97703700CD19E8 /* Library.xcdatamodeld */; };
+		1F043BF21E97703700CD19E8 /* SlideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BE81E97703700CD19E8 /* SlideMenuAnimationController.swift */; };
+		1F043BF31E97703700CD19E8 /* SlideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BE91E97703700CD19E8 /* SlideMenuCell.swift */; };
+		1F043BF41E97703700CD19E8 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BEA1E97703700CD19E8 /* SlideMenuController.swift */; };
+		1F043BF51E97703700CD19E8 /* TableDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F043BEB1E97703700CD19E8 /* TableDataController.swift */; };
 		1F1A64171E7B8D63004DC852 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A640F1E7B8D63004DC852 /* ExampleController.swift */; };
 		1F1A64181E7B8D63004DC852 /* StyleGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A64101E7B8D63004DC852 /* StyleGenerator.swift */; };
 		1F1A64191E7B8D63004DC852 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A64121E7B8D63004DC852 /* CalendarViewController.swift */; };
@@ -184,6 +194,17 @@
 		1F043B861E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchProgrammaticallyViewController.swift; sourceTree = "<group>"; };
 		1F043B871E975EF000CD19E8 /* StopwatchStoryboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchStoryboardViewController.swift; sourceTree = "<group>"; };
 		1F043B881E975EF000CD19E8 /* StopwatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		1F043BDE1E97703700CD19E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F043BE01E97703700CD19E8 /* Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core_Data.xcdatamodel; sourceTree = "<group>"; };
+		1F043BE11E97703700CD19E8 /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		1F043BE31E97703700CD19E8 /* CustomTableView 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CustomTableView 2.xcdatamodel"; sourceTree = "<group>"; };
+		1F043BE41E97703700CD19E8 /* CustomTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomTableView.xcdatamodel; sourceTree = "<group>"; };
+		1F043BE51E97703700CD19E8 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		1F043BE71E97703700CD19E8 /* Library.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Library.xcdatamodel; sourceTree = "<group>"; };
+		1F043BE81E97703700CD19E8 /* SlideMenuAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuAnimationController.swift; sourceTree = "<group>"; };
+		1F043BE91E97703700CD19E8 /* SlideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuCell.swift; sourceTree = "<group>"; };
+		1F043BEA1E97703700CD19E8 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		1F043BEB1E97703700CD19E8 /* TableDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataController.swift; sourceTree = "<group>"; };
 		1F1A640F1E7B8D63004DC852 /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
 		1F1A64101E7B8D63004DC852 /* StyleGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGenerator.swift; sourceTree = "<group>"; };
 		1F1A64121E7B8D63004DC852 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -378,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				1F043B7F1E975EF000CD19E8 /* StopWatch */,
+				1F043BDC1E97703700CD19E8 /* CustomTableView */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -392,6 +414,23 @@
 				1F043B881E975EF000CD19E8 /* StopwatchViewController.swift */,
 			);
 			path = StopWatch;
+			sourceTree = "<group>";
+		};
+		1F043BDC1E97703700CD19E8 /* CustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				1F043BDD1E97703700CD19E8 /* Main.storyboard */,
+				1F043BDF1E97703700CD19E8 /* Core_Data.xcdatamodeld */,
+				1F043BE11E97703700CD19E8 /* CustomTableCell.swift */,
+				1F043BE21E97703700CD19E8 /* CustomTableView.xcdatamodeld */,
+				1F043BE51E97703700CD19E8 /* CustomTableViewController.swift */,
+				1F043BE61E97703700CD19E8 /* Library.xcdatamodeld */,
+				1F043BE81E97703700CD19E8 /* SlideMenuAnimationController.swift */,
+				1F043BE91E97703700CD19E8 /* SlideMenuCell.swift */,
+				1F043BEA1E97703700CD19E8 /* SlideMenuController.swift */,
+				1F043BEB1E97703700CD19E8 /* TableDataController.swift */,
+			);
+			path = CustomTableView;
 			sourceTree = "<group>";
 		};
 		1F1A640A1E7B8D32004DC852 /* Helper */ = {
@@ -1036,6 +1075,7 @@
 				1F2D06331E88F297000BF049 /* eve.jpg in Resources */,
 				1F043B8A1E975EF000CD19E8 /* Assets.xcassets in Resources */,
 				1F2D06321E88F297000BF049 /* deepali.jpg in Resources */,
+				1F043BEC1E97703700CD19E8 /* Main.storyboard in Resources */,
 				1F043B8C1E975EF000CD19E8 /* Main.storyboard in Resources */,
 				1F2D06341E88F297000BF049 /* frontier.jpg in Resources */,
 				1F2D063B1E88F297000BF049 /* michael.jpg in Resources */,
@@ -1244,11 +1284,13 @@
 				1F1A64881E7B8ECB004DC852 /* ButtonViewController.swift in Sources */,
 				1F1A64B51E7B8ECB004DC852 /* PhotoLibraryViewController.swift in Sources */,
 				1F1A64221E7B8DD8004DC852 /* ImageCollectionViewController.swift in Sources */,
+				1F043BED1E97703700CD19E8 /* Core_Data.xcdatamodeld in Sources */,
 				1F1A64A41E7B8ECB004DC852 /* NavigationDrawerRightViewController.swift in Sources */,
 				1F1A64AE1E7B8ECB004DC852 /* PCPhotoViewController.swift in Sources */,
 				1F1A64901E7B8ECB004DC852 /* SampleData.swift in Sources */,
 				1F1A64C11E7B8ECB004DC852 /* TextFieldViewController.swift in Sources */,
 				1F1A64941E7B8ECB004DC852 /* FABAppMenuController.swift in Sources */,
+				1F043BF41E97703700CD19E8 /* SlideMenuController.swift in Sources */,
 				1F1A64911E7B8ECB004DC852 /* CardViewController.swift in Sources */,
 				1F1A64B71E7B8ECB004DC852 /* PLViewController.swift in Sources */,
 				1F1A648C1E7B8ECB004DC852 /* CardTableView.swift in Sources */,
@@ -1264,7 +1306,9 @@
 				1F1A64C01E7B8ECB004DC852 /* SBViewController.swift in Sources */,
 				1F1A64211E7B8DD8004DC852 /* AnimatedCollectionViewLayoutViewController.swift in Sources */,
 				1F1A64971E7B8ECB004DC852 /* FABRootViewController.swift in Sources */,
+				1F043BF11E97703700CD19E8 /* Library.xcdatamodeld in Sources */,
 				1F1A64AA1E7B8ECB004DC852 /* PageTabBarAppController.swift in Sources */,
+				1F043BEF1E97703700CD19E8 /* CustomTableView.xcdatamodeld in Sources */,
 				1F1A64BE1E7B8ECB004DC852 /* AppSnackbarController.swift in Sources */,
 				1F1A64991E7B8ECB004DC852 /* GridViewController.swift in Sources */,
 				1F4C17C31E8934B500D0916B /* GoogleWearAlert.swift in Sources */,
@@ -1277,6 +1321,7 @@
 				1F043B8F1E975EF000CD19E8 /* StopwatchViewController.swift in Sources */,
 				1F043B8E1E975EF000CD19E8 /* StopwatchStoryboardViewController.swift in Sources */,
 				1F1A64AD1E7B8ECB004DC852 /* PCAppNavigationController.swift in Sources */,
+				1F043BF21E97703700CD19E8 /* SlideMenuAnimationController.swift in Sources */,
 				1F1A64841E7B8ECB004DC852 /* PhotoViewController.swift in Sources */,
 				1F1A649F1E7B8ECB004DC852 /* NavigationRootViewController.swift in Sources */,
 				1F55A31C1E7A85F200A205B5 /* DemoPhotoMessageHandler.swift in Sources */,
@@ -1314,6 +1359,7 @@
 				1F4C17CB1E89D71E00D0916B /* GoogleWearAlertViewController.swift in Sources */,
 				1F1A641A1E7B8D63004DC852 /* KoyomiViewController.swift in Sources */,
 				1F55A3241E7A85F200A205B5 /* DemoTextMessageModel.swift in Sources */,
+				1F043BF31E97703700CD19E8 /* SlideMenuCell.swift in Sources */,
 				1F1A64A91E7B8ECB004DC852 /* GreenViewController.swift in Sources */,
 				1F55A3171E7A85F200A205B5 /* ConversationsViewController.swift in Sources */,
 				1F1A64BC1E7B8ECB004DC852 /* SearchVC.swift in Sources */,
@@ -1322,6 +1368,7 @@
 				1F043B8D1E975EF000CD19E8 /* StopwatchProgrammaticallyViewController.swift in Sources */,
 				1F55A31D1E7A85F200A205B5 /* DemoPhotoMessageModel.swift in Sources */,
 				1F1A64861E7B8ECB004DC852 /* SearchViewController.swift in Sources */,
+				1F043BEE1E97703700CD19E8 /* CustomTableCell.swift in Sources */,
 				1F1A64191E7B8D63004DC852 /* CalendarViewController.swift in Sources */,
 				1F55A3281E7A85F200A205B5 /* TimeSeparatorPresenter.swift in Sources */,
 				1F1A648A1E7B8ECB004DC852 /* AppPageTabBarController.swift in Sources */,
@@ -1335,10 +1382,12 @@
 				1F55A31A1E7A85F200A205B5 /* FakeMessageFactory.swift in Sources */,
 				1F55A3141E7A85F200A205B5 /* BaseMessageCollectionViewCellAvatarStyle.swift in Sources */,
 				1F1A64801E7B8ECB004DC852 /* BarViewController.swift in Sources */,
+				1F043BF51E97703700CD19E8 /* TableDataController.swift in Sources */,
 				1F1A649D1E7B8ECB004DC852 /* AppNavigationController.swift in Sources */,
 				1F1A642A1E7B8E2F004DC852 /* MenuCollectionViewController.swift in Sources */,
 				1F1A64A71E7B8ECB004DC852 /* NavigationDrawerViewController.swift in Sources */,
 				1F1A64891E7B8ECB004DC852 /* AppFABMenuController.swift in Sources */,
+				1F043BF01E97703700CD19E8 /* CustomTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1378,6 +1427,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				1F043B851E975EF000CD19E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F043BDD1E97703700CD19E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F043BDE1E97703700CD19E8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1622,6 +1679,37 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		1F043BDF1E97703700CD19E8 /* Core_Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F043BE01E97703700CD19E8 /* Core_Data.xcdatamodel */,
+			);
+			currentVersion = 1F043BE01E97703700CD19E8 /* Core_Data.xcdatamodel */;
+			path = Core_Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		1F043BE21E97703700CD19E8 /* CustomTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F043BE31E97703700CD19E8 /* CustomTableView 2.xcdatamodel */,
+				1F043BE41E97703700CD19E8 /* CustomTableView.xcdatamodel */,
+			);
+			currentVersion = 1F043BE41E97703700CD19E8 /* CustomTableView.xcdatamodel */;
+			path = CustomTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		1F043BE61E97703700CD19E8 /* Library.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F043BE71E97703700CD19E8 /* Library.xcdatamodel */,
+			);
+			currentVersion = 1F043BE71E97703700CD19E8 /* Library.xcdatamodel */;
+			path = Library.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		BC9AE1741E7043F300D3199C /* AwesomeSwift.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
